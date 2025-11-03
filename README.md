@@ -10,7 +10,7 @@
 [![Deploy on Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com/new)
 [![Deploy on Netlify](https://img.shields.io/badge/Deploy-Netlify-00C7B7?logo=netlify&logoColor=white)](https://app.netlify.com/start)
 
-Bienvenue dans le dépôt du site web d'Africa's Global Services (AGS Informatique), une entreprise spécialisée dans la vente de matériel informatique, la maintenance, les réseaux, et les services IT au Sénégal.
+Bienvenue dans le dépôt du site web d'ESTS Informatique, une entreprise spécialisée dans la vente de matériel informatique, la maintenance, les réseaux, et les services IT au Sénégal.
 
 Lien Figma (maquette originale): https://www.figma.com/design/6sKWZpA630XawMEsX2AdO4/Prototype-for-Africa-s-Global-Services
 
