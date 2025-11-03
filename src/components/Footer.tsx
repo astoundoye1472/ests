@@ -17,8 +17,9 @@ export function Footer() {
   const [selectedItem, setSelectedItem] = useState<RepereItem | null>(null);
 
   const reperes: RepereItem[] = [
-    { type: "image", src: "/images/map1.jfif", title: "Notre siège" },
-    { type: "video", src: "/images/map2.mp4", title: "Tour du quartier" },
+    { type: "image", src: "/images/ests1.jpg", title: "Notre siège" },
+     { type: "image", src: "/images/ests2.jpg", title: "Notre siège" },
+    { type: "video", src: "/images/ests3.mp4", title: "Tour du quartier" },
   ];
 
   return (
@@ -33,8 +34,8 @@ export function Footer() {
       >
         <div className="w-full h-[500px] md:h-[600px] lg:h-[700px] rounded-2xl overflow-hidden shadow-xl mx-auto">
           <iframe
-            title="Localisation AGS"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3869.8491137210913!2d-17.4566621!3d14.6822636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2ssn!4v1700000000000!5m2!1sfr!2ssn"
+            title="Localisation  ESTS"
+            src="google.com/maps?q=14.6963214874268,-17.4472522735596"
             width="100%"
             height="100%"
             className="border-0"
@@ -159,7 +160,7 @@ export function Footer() {
           {/* Bottom Footer */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-gray-400 text-sm">
-              © 2025 Africa’s Global Services.
+              © 2025 Entreprise Sénégalaise de Travaux et Services.
               <br /> Tous droits réservés. Fournisseur de solutions numériques.
             </div>
 
