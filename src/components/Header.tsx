@@ -19,7 +19,7 @@ export function Header() {
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4 text-blue-600" />
-              <span className="text-sm text-gray-600">contact@agsinformatique.sn</span>
+              <span className="text-sm text-gray-600">contact@ests-informatique.sn</span>
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@ export function Header() {
         <div className="flex items-center justify-between py-4">
           <Link to="/" className="flex items-center" aria-label="Accueil">
             <div className="bg-blue-600 rounded-lg mr-3">
-                <img src="/images/ESTS 192X192.jpg" alt="Logo AGS"/>
+                <img src="/images/ESTS 192X192.jpg" alt="Logo ESTS Informatique"/>
             </div>
           </Link>
           {/* Desktop Navigation */}

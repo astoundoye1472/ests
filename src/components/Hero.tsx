@@ -9,7 +9,7 @@ export function Hero() {
   const title = "L'Excellence Informatique";
   const subtitle = "Au Service de Votre Réussite";
   const tagline =
-    "Africa's Global Services vous accompagne : vente de matériel, maintenance, réseau, câblage et solutions informatiques professionnelles.";
+    "ESTS Informatique vous accompagne : vente de matériel, maintenance, réseau, câblage et solutions informatiques professionnelles.";
 
   const [line1, setLine1] = useState("");
   const [line2, setLine2] = useState("");
@@ -207,7 +207,7 @@ export function Hero() {
   <div className="relative">
     <ImageWithFallback
       src={currentImage}
-      alt="Africa's Global Services – Solutions informatiques"
+      alt="ESTS Informatique – Solutions informatiques"
       className="rounded-3xl shadow-2xl object-cover w-full h-[500px]"
     />
 

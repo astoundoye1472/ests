@@ -35,12 +35,12 @@ export function About() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl text-gray-900 mb-4">
-            À Propos d'Africa's Global Services
+            À Propos d'ESTS Informatique
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Chez Africa’s Global Services, nous connectons l’Afrique au monde grâce
-            à des solutions informatiques sur mesure, performantes et accessibles. 
-            Notre ambition : faire du numérique un levier de compétitivité et d’excellence pour chaque entreprise.
+            Chez ESTS Informatique, nous connectons l'Afrique au monde grâce
+            à des solutions informatiques sur mesure, performantes et accessibles.
+            Notre ambition : faire du numérique un levier de compétitivité et d'excellence pour chaque entreprise.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ export function About() {
             <div className="space-y-4 text-gray-600">
               <p>
                 Fondée avec la vision de rendre les technologies informatiques accessibles à tous, 
-                Africa’s Global Services (AGS Informatique) s’est progressivement imposée comme
+                ESTS Informatique s'est progressivement imposée comme
                 un acteur majeur du secteur numérique en Afrique.
               </p>
               <p>
@@ -80,7 +80,7 @@ export function About() {
           >
             <ImageWithFallback
               src="/images/img.png"
-              alt="Équipe Africa's Global Services"
+              alt="Équipe ESTS Informatique"
               className="w-full h-[400px] object-contain rounded-2xl shadow-lg bg-gray-100"
             />
           </motion.div>
@@ -150,10 +150,10 @@ export function About() {
 >
   <h3 className="text-2xl md:text-3xl mb-6">Notre Mission</h3>
   <p className="text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
-    Chez AGS Informatique, notre mission est d’accompagner la transformation numérique 
-    de l’Afrique en proposant des solutions technologiques fiables, innovantes et accessibles à tous.
-    Nous plaçons l’excellence, la confiance et le développement des compétences locales au cœur de 
-    notre démarche afin de bâtir un écosystème numérique solide, créateur d’opportunités et moteur
+    Chez ESTS Informatique, notre mission est d'accompagner la transformation numérique
+    de l'Afrique en proposant des solutions technologiques fiables, innovantes et accessibles à tous.
+    Nous plaçons l'excellence, la confiance et le développement des compétences locales au cœur de
+    notre démarche afin de bâtir un écosystème numérique solide, créateur d'opportunités et moteur
     de croissance durable pour le continent africain.
   </p>
 </motion.div>

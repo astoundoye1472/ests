@@ -21,7 +21,7 @@ export function Contact() {
     {
       icon: <Mail className="h-6 w-6 text-purple-600" />,
       title: "Email",
-      content: "contact@agsinformatique.sn",
+      content: "contact@ests-informatique.sn",
       description: "Réponse sous 24h"
     },
     {
@@ -94,7 +94,7 @@ export function Contact() {
 
     {/* Bouton Email */}
     <Button
-      onClick={() => window.open('mailto:contact@agsinformatique.sn', '_self')}
+      onClick={() => window.open('mailto:contact@ests-informatique.sn', '_self')}
       variant="outline"
       className="flex items-center justify-center gap-2 border-2 border-blue-300 hover:border-blue-500 hover:bg-blue-50 text-blue-700 hover:text-blue-800 font-semibold px-6 py-3 rounded-xl shadow-sm hover:shadow-md transform hover:scale-105 transition-all duration-300"
     >
