@@ -6,11 +6,10 @@ import { Button } from "./ui/button";
 
 // ✅ Nouveau Hero Section moderne, premium & animé
 export function Hero() {
-  const title = "L'Excellence Informatique";
-  const subtitle = "Au Service de Votre Réussite";
+  const title = "La Maîtrise Technologique";
+  const subtitle = "Au Service de Vos Ambitions";
   const tagline =
-    "Africa's Global Services vous accompagne : vente de matériel, maintenance, réseau, câblage et solutions informatiques professionnelles.";
-
+    "Avec ESTS, l’excellence sénégalaise est au service de vos projets : travaux, services et solutions sur mesure pour bâtir l’avenir."
   const [line1, setLine1] = useState("");
   const [line2, setLine2] = useState("");
   const [text, setText] = useState("");

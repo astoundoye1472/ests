@@ -76,8 +76,7 @@ export function Services() {
             Nos Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Des solutions informatiques complètes pour accompagner votre croissance
-            et optimiser vos performances technologiques.
+           Boostez votre croissance avec des solutions informatiques innovantes, fiables et sur mesure.
           </p>
         </div>
 

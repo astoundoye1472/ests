@@ -172,8 +172,7 @@ export const ProductsAll: React.FC = () => {
           Nos Produits
         </h2>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Découvrez une sélection de produits fiables et performants pour
-          moderniser votre infrastructure.
+         Des équipements de pointe pour une infrastructure plus moderne, plus performante et plus sécurisée.
         </p>
       </div>
 

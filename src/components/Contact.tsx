@@ -7,21 +7,20 @@ export function Contact() {
     {
       icon: <MapPin className="h-6 w-6 text-blue-600" />,
       title: "Adresse",
-      content: "Axe immeuble Diez (M. DelaFosse) vers rue 6 prolongée \n" +
-          "54x65 Gueule Tapée Résidence Cheikh Bamba NDIONGUE ",
+      content: "25 Avenue C.A.Bamba Colobane en face du lycée Colobane", 
       description: "Bureaux"
     },
     {
       icon: <Phone className="h-6 w-6 text-green-600" />,
       title: "Téléphone",
-      content: "+221 77 387 00 30\n +221 33 822 63 67\n" +
-          "+221 77 671 96 95\n +221 76 835 74 43",
+      content: "+221 77 268 41 88\n +221 33 822 20 50\n" +
+          "+221 77 578 92 36\n +221 77 541 00 39`\n +221 78 147 12 85",
       description: "Numéros d'urgence",
     },
     {
       icon: <Mail className="h-6 w-6 text-purple-600" />,
       title: "Email",
-      content: "contact@agsinformatique.sn",
+      content: "estssarl2021@gmail.com",
       description: "Réponse sous 24h"
     },
     {
@@ -40,8 +39,7 @@ export function Contact() {
             Contactez-Nous
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Besoin d'une solution informatique sur mesure ? Notre équipe d'experts
-            est à votre disposition pour vous accompagner dans vos projets.
+           Vous avez un projet informatique ? Notre équipe d’experts vous accompagne avec des solutions sur mesure, performantes et adaptées à vos besoins.
           </p>
         </div>
 
@@ -94,7 +92,7 @@ export function Contact() {
 
     {/* Bouton Email */}
     <Button
-      onClick={() => window.open('mailto:contact@agsinformatique.sn', '_self')}
+      onClick={() => window.open('estssarl2021@gmail.com', '_self')}
       variant="outline"
       className="flex items-center justify-center gap-2 border-2 border-blue-300 hover:border-blue-500 hover:bg-blue-50 text-blue-700 hover:text-blue-800 font-semibold px-6 py-3 rounded-xl shadow-sm hover:shadow-md transform hover:scale-105 transition-all duration-300"
     >
@@ -116,7 +114,7 @@ export function Contact() {
     Urgence Informatique ?
   </h3>
   <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
-    Notre équipe d'intervention rapide est disponible pour tous vos problèmes critiques.
+    Ne manquez rien ! Recevez nos nouveautés, offres spéciales et astuces techniques directement dans votre boîte.
   </p>
   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
     <Button size="lg" variant="secondary" className="bg-white text-lg text-blue-600 hover:bg-gray-100 w-[20px]"

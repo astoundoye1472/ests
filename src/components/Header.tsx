@@ -15,11 +15,11 @@ export function Header() {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4 text-blue-600" />
-              <span className="text-sm text-gray-600">+221 77 387 00 30</span>
+              <span className="text-sm text-gray-600">+221 78 864 42 39</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4 text-blue-600" />
-              <span className="text-sm text-gray-600">contact@agsinformatique.sn</span>
+              <span className="text-sm text-gray-600">estssarl2021@gmail.com</span>
             </div>
           </div>
         </div>

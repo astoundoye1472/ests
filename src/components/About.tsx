@@ -35,12 +35,12 @@ export function About() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl text-gray-900 mb-4">
-            À Propos d'Africa's Global Services
+             À Propos d’ESTS
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Chez Africa’s Global Services, nous connectons l’Afrique au monde grâce
-            à des solutions informatiques sur mesure, performantes et accessibles. 
-            Notre ambition : faire du numérique un levier de compétitivité et d’excellence pour chaque entreprise.
+           
+Fondée sur des valeurs d’excellence et de professionnalisme, ESTS accompagne les entreprises et les collectivités dans la réalisation de leurs projets de travaux, de maintenance et de services techniques.
+Nous mettons notre savoir-faire sénégalais au service d’infrastructures solides et durables, conçues pour répondre aux exigences de demain.
           </p>
         </div>
 
@@ -55,18 +55,20 @@ export function About() {
             <h3 className="text-2xl text-gray-900 mb-6">Notre Histoire</h3>
             <div className="space-y-4 text-gray-600">
               <p>
-                Fondée avec la vision de rendre les technologies informatiques accessibles à tous, 
-                Africa’s Global Services (AGS Informatique) s’est progressivement imposée comme
-                un acteur majeur du secteur numérique en Afrique.
+               Fondée avec la volonté de contribuer activement au développement du Sénégal, l’Entreprise
+                Sénégalaise de Travaux et de Services (ESTS) s’est affirmée au fil des années comme un acteur incontournable dans le domaine des travaux et des services techniques.
               </p>
               <p>
-                Depuis plus de vingt ans, nous accompagnons entreprises, institutions et
-                particuliers dans leur transformation digitale en leur offrant des solutions
-                sur mesure, pensées pour répondre aux réalités du marché africain.
+                Grâce à une équipe expérimentée et engagée, nous accompagnons entreprises, institutions et collectivités dans la réalisation de leurs projets, en alliant 
+                qualité, fiabilité et innovation.
               </p>
               <p>
-                Notre expertise s’étend sur l’ensemble de la chaîne de valeur informatique : 
-                fourniture d’équipements, installation, configuration, maintenance et support technique.
+                Notre expertise couvre un large éventail de prestations : travaux de construction et de maintenance, installations électriques, aménagements, services 
+                techniques et solutions sur mesure adaptées aux besoins de chaque client.
+              </p>
+              <p>
+                Chez ESTS, nous croyons qu’un travail bien fait est le socle d’un avenir durable — c’est pourquoi nous plaçons l’excellence, la rigueur et la satisfaction client au 
+                cœur de chacune de nos réalisations.
               </p>
             </div>
           </motion.div>
@@ -150,11 +152,11 @@ export function About() {
 >
   <h3 className="text-2xl md:text-3xl mb-6">Notre Mission</h3>
   <p className="text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
-    Chez AGS Informatique, notre mission est d’accompagner la transformation numérique 
-    de l’Afrique en proposant des solutions technologiques fiables, innovantes et accessibles à tous.
-    Nous plaçons l’excellence, la confiance et le développement des compétences locales au cœur de 
-    notre démarche afin de bâtir un écosystème numérique solide, créateur d’opportunités et moteur
-    de croissance durable pour le continent africain.
+    Chez ESTS, notre mission est de contribuer activement au développement du Sénégal et de l’Afrique en offrant des solutions de travaux et de services alliant qualité, fiabilité et innovation.
+
+Nous plaçons l’excellence, la rigueur et la satisfaction client au cœur de chacune de nos réalisations, afin de bâtir des infrastructures durables et de favoriser la croissance économique locale.
+
+Par notre engagement et notre expertise, nous aspirons à devenir un acteur de référence dans la modernisation des infrastructures, au service du progrès, de la performance et du développement durable.
   </p>
 </motion.div>
 
