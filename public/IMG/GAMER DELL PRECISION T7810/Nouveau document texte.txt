@@ -1,0 +1,20 @@
+400 000 F Cfa
+GAMER DELL PRECISION T7810
+ Colobane Dakar
+Détails
+EtatRéconditionnéCouleurNOIR
+Description
+Modèle : Dell Precision 7810
+Format : Tour
+Processeur : Double Intel Xeon E5-2609 1,70 GHz - Turbo : 3,00 Ghz-3
+Mémoire Vive : 32Go - DDR4 ECC EXTENSIBLE A 64GO
+Disque dur : OPTION 1: 256SSD en master +500Go SATA en slave
+OPTION 2: 512SSD en master +1000Go SATA en slave
+Lecteur optique : Graveur DVD
+Carte graphique : OPTION 1 NVIDIA 4Go GDDR5
+OPTION 2 NVIDIA - 6Go A 8GO GDDR5
+Carte son : Intégrée
+Réseau : Gigabit Ethernet
+Système d'exploitation installé : Microsoft Windows 10 Professionnel 64 bits
+LOGICIELLE ARCHITECTURE: AUTOCAD, ARCHICAD, GRAYTEC,ETC.... DISPONIBLES
+Alimentation : 685 Watts

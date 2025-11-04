@@ -1,0 +1,15 @@
+70 000 F Cfa
+Imprimante Laser Noir RICOH SP 4510DN
+ Colobane Dakar
+Détails
+EtatRéconditionnéCouleurBlanc
+Description
+Imprimante Laser Noir RICOH SP 4510DN
+Vitesse d'impression (noir, A4) 40 ppm
+Format de papier A4
+Recto/verso automatique
+Écran LCD N&B
+Vitesse d'impression 1ère page monochrome 5 s
+Cycle d'utilisation mensuel conseillé (min.)3000 pages / mois
+Cycle d'utilisation mensuel conseillé (max.) 10000 pages / mois
+Résolution d'impression monochrome (Maximum) 1200 x 1200 ppp
