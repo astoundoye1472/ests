@@ -17,11 +17,11 @@ export function Hero() {
 
   const images = [
     "/images/imagebanniere.jpg",
-    "/images/banniere1.jpg",
-    "/images/banniere2.jpg",
+    "/images/banniere5.png",
+    "/images/banniere2.jpeg",
      "/images/banniere3.jfif",
-    "/images/banniere4.JFIF",
-    "/images/banniere5.png"
+    "/images/banniere2.jpeg",
+    "/images/banniere4.JFIF"
 
   ];
   const [currentImage, setCurrentImage] = useState(images[0]);

@@ -81,7 +81,7 @@ Nous mettons notre savoir-faire sénégalais au service d’infrastructures soli
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <ImageWithFallback
-              src="/images/img.png"
+              src="/images/ESTS 192X192.jpg"
               alt="Équipe ESTS Informatique"
               className="w-full h-[400px] object-contain rounded-2xl shadow-lg bg-gray-100"
             />
