@@ -1,0 +1,11 @@
+200 000 F Cfa
+Gamer Dell et HP
+ Colobane Dakar
+Détails
+EtatRéconditionnéMarqueDellCouleurgrisProcesseur2.66GHZRAM16GOStockage756 GO
+Description
+Dell Precision ou HP Z400 et 420
+Processeur : Intel XEON E5420 ou 5430 Fréquence : 2.66Ghz.
+Mémoire Ram 16go : Disque dur : 1ssd 256go en master+1de 500 Go sata en slave.
+Ecran 22 à24 pouces.
+Carte graphique de 4 go

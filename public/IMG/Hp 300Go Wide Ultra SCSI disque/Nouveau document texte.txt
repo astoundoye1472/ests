@@ -1,0 +1,7 @@
+15 000 F Cfa
+Hp 300Go Wide Ultra SCSI disque
+ Gueule-Tapée Dakar
+Détails
+EtatRéconditionné
+Description
+Type de périphérique Disque dur - échangeable à chaud.Largeur:11.1cm. Profondeur:18.9cm. Poids 0.73 kg. Disque dur Facteur de forme 3.5" LFF.Capacité 300Go.Type d'interface Serial Attached SCSI 2.Octets par secteur 512.Performances. Débit de transfert du lecteur 600 Mo/s (externe). Temps de positionnement 3.5 ms (en moyenne) / 6.8 ms (maximum). Temps de positionnement piste à piste 0.2 ms Vitesse de rotation 10000 tours/min. Extension/connectivité Interfaces 2 x Serial Attached SCSI 2. Baies compatibles 1 x hot-swap - 3.5" LFF
