@@ -206,7 +206,7 @@ export function Hero() {
   <div className="relative">
     <ImageWithFallback
       src={currentImage}
-      alt="Africa's Global Services – Solutions informatiques"
+      alt="ESTS Informatique – Solutions informatiques"
       className="rounded-3xl shadow-2xl object-cover w-full h-[500px]"
     />
 

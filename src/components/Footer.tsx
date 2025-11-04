@@ -178,7 +178,7 @@ export function Footer() {
                 />
               </a>
               <a
-                href="https://www.instagram.com/agsinformatique/"
+                href="https://www.instagram.com/ests-informatique/"
                 target="_blank"
                 className="bg-gray-800 p-2 rounded-lg hover:bg-blue-400 transition-colors"
                 style={{ backgroundColor: "#FF0069" }}

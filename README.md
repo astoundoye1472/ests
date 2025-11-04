@@ -1,21 +1,21 @@
-# Site Web Africa's Global Services (AGS Informatique)
+# Site Web ESTS Informatique
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Vite](https://img.shields.io/badge/Built%20with-Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/Built%20with-React-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Styled%20with-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Contributors](https://img.shields.io/github/contributors/Hojgaetan/agsinformatique)](https://github.com/Hojgaetan/agsinformatique/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/Hojgaetan/agsinformatique?style=social)](https://github.com/Hojgaetan/agsinformatique/network/members)
+[![Contributors](https://img.shields.io/github/contributors/Hojgaetan/ests-informatique)](https://github.com/Hojgaetan/ests-informatique/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/Hojgaetan/ests-informatique?style=social)](https://github.com/Hojgaetan/ests-informatique/network/members)
 [![Build](https://img.shields.io/badge/CI-GitHub%20Actions-lightgrey?logo=github-actions&logoColor=white)](#continuous-integration)
 [![Deploy on Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com/new)
 [![Deploy on Netlify](https://img.shields.io/badge/Deploy-Netlify-00C7B7?logo=netlify&logoColor=white)](https://app.netlify.com/start)
 
-Bienvenue dans le dépôt du site web d'Africa's Global Services (AGS Informatique), une entreprise spécialisée dans la vente de matériel informatique, la maintenance, les réseaux, et les services IT au Sénégal.
+Bienvenue dans le dépôt du site web d'ESTS Informatique, une entreprise spécialisée dans la vente de matériel informatique, la maintenance, les réseaux, et les services IT au Sénégal.
 
-Lien Figma (maquette originale): https://www.figma.com/design/6sKWZpA630XawMEsX2AdO4/Prototype-for-Africa-s-Global-Services
+Lien Figma (maquette originale): https://www.figma.com/design/6sKWZpA630XawMEsX2AdO4/Prototype-for-ESTS-Informatique
 
 ## But et objectifs du site
-Ce site a pour mission de connecter le pays (Sénégal) au monde grâce à des solutions informatiques fiables, innovantes et accessibles, et de servir de vitrine digitale pour Africa’s Global Services (AGS Informatique).
+Ce site a pour mission de connecter le pays (Sénégal) au monde grâce à des solutions informatiques fiables, innovantes et accessibles, et de servir de vitrine digitale pour ESTS Informatique.
 
 Objectifs clés:
 - Présenter clairement l’offre de services: vente de matériel, maintenance & réparation, réseaux & câblage, installation & configuration, support technique, consulting IT (cf. section « Services »).
@@ -127,7 +127,7 @@ Il s'agit d'un site statique. Après `npm run build`, déployez le contenu du do
 ## Contact
 - Adresse: 54x65 Geule Tapée Résidence Cheikh Bamba NDIONGUE (Siège social)
 - Téléphone: +221 77 387 00 30 / 33 822 63 67 (Support 24h/6j)
-- Email: contact@africasglobalservices.sn ou contact@agsinformatique.sn (réponse sous 24h)
+- Email: contact@ests-informatique.sn (réponse sous 24h)
 - Horaires: Lun–Ven 8h00–18h00, Sam 8h00–13h00
 - Urgences: Assistance d'urgence au +221 77 268 41 88
 

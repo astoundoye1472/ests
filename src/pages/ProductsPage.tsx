@@ -523,7 +523,7 @@ function ProductCard({ product }: { product: Product }) {
         <div className="flex items-center justify-between">
           <a
             className="text-blue-600 hover:text-blue-700 text-sm"
-            href={`mailto:contact@agsinformatique.sn?subject=Demande d'information: ${encodeURIComponent(product.name)}&body=Bonjour,%20je%20souhaite%20plus%20d'informations%20sur%20le%20produit%20${encodeURIComponent(product.name)}.`}
+            href={`mailto:contact@ests-informatique.sn?subject=Demande d'information: ${encodeURIComponent(product.name)}&body=Bonjour,%20je%20souhaite%20plus%20d'informations%20sur%20le%20produit%20${encodeURIComponent(product.name)}.`}
           >
             Demander des infos
           </a>
@@ -566,7 +566,7 @@ const CATEGORY_BUTTON_STYLES: Record<CategoryKey, { base: string; selected: stri
     text: "text-teal-700",
     hover: "hover:bg-teal-600/15",
   },
-  mobile: {
+  "applications avec licences et antivirus": {
     base: "bg-red-600/10 border-red-600/10",
     selected: "bg-red-600/20 ring-1 ring-red-600/30",
     text: "text-red-700",

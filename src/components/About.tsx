@@ -82,7 +82,7 @@ Nous mettons notre savoir-faire sénégalais au service d’infrastructures soli
           >
             <ImageWithFallback
               src="/images/img.png"
-              alt="Équipe Africa's Global Services"
+              alt="Équipe ESTS Informatique"
               className="w-full h-[400px] object-contain rounded-2xl shadow-lg bg-gray-100"
             />
           </motion.div>

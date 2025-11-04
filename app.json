@@ -1,14 +1,14 @@
 {
-  "name": "Africa's Global Services",
-  "brand": "AGS Informatique",
+  "name": "ESTS Informatique",
+  "brand": "ESTS Informatique",
   "slogan": "Solutions Informatiques",
   "version": "0.1.0",
   "locale": "fr-SN",
-  "title": "Prototype for Africa's Global Services",
+  "title": "ESTS Informatique - Fournisseur de Solutions Informatiques à Dakar",
   "description": "Votre partenaire de confiance pour tous vos besoins informatiques à Dakar. Vente de matériel, maintenance, réseaux & câblage, installation, support technique et consulting.",
   "contact": {
     "phone": "+221 77 387 00 30",
-    "email": "contact@agsinformatique.sn",
+    "email": "contact@ests-informatique.sn",
     "whatsapp": "https://wa.me/221773870030",
     "address": {
       "city": "Dakar",
@@ -178,14 +178,14 @@
     "privacyPolicy": "#",
     "termsOfUse": "#",
     "mentionsLegales": "#",
-    "copyright": "© 2024 Africa's Global Services. Tous droits réservés."
+    "copyright": "© 2024 ESTS Informatique. Tous droits réservés."
   },
   "seo": {
-    "metaTitle": "Africa's Global Services - Solutions Informatiques à Dakar",
+    "metaTitle": "ESTS Informatique - Solutions Informatiques à Dakar",
     "metaDescription": "Vente de matériel, maintenance & réparation, réseaux & câblage, installation, support technique et consulting. Intervention rapide, solutions fiables, équipe experte.",
     "keywords": [
-      "AGS",
-      "Africa's Global Services",
+      "ESTS",
+      "ESTS Informatique",
       "informatique",
       "vente matériel",
       "maintenance",
