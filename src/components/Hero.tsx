@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Zap, Shield, Users } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { Button } from "./ui/button";
 
 // ✅ Nouveau Hero Section moderne, premium & animé
 export function Hero() {
@@ -82,8 +81,7 @@ export function Hero() {
           >
             {line1}
             <br />
-           <span style={{ color: "#D61F29" }}>{line2}</span>
-
+            <span className="text-blue-600">{line2}</span>
           </motion.h1>
 
           <motion.p
@@ -108,7 +106,7 @@ export function Hero() {
               <div style={{ textAlign: "center" }}>
                 <div
                   style={{
-                    backgroundColor: "#f80707ff", // bleu foncé
+                    backgroundColor: "#1E40AF", // bleu foncé
                     padding: "1rem",
                     borderRadius: "50%",
                     width: "56px",
@@ -134,7 +132,7 @@ export function Hero() {
               <div style={{ textAlign: "center" }}>
                 <div
                   style={{
-                    backgroundColor: "#0f054eff", // vert foncé
+                    backgroundColor: "#047857", // vert foncé
                     padding: "1rem",
                     borderRadius: "50%",
                     width: "56px",
@@ -160,7 +158,7 @@ export function Hero() {
               <div style={{ textAlign: "center" }}>
                 <div
                   style={{
-                    backgroundColor: "#fce57cff", // violet foncé
+                    backgroundColor: "#6D28D9", // violet foncé
                     padding: "1rem",
                     borderRadius: "50%",
                     width: "56px",
