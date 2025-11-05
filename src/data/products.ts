@@ -508,83 +508,82 @@ export const PRODUCTS: Product[] = [
     },
      {
         id: "p-59",
-       name: "HP Core I5+19 NEUF",
-        price: 250000,
+       name: "HP ELITEBOOK 840 G6 I7",
+        price: 200000,
         stock: "En stock",
         category: "computers",
-        subcategory: "Ordinateurs de bureau",
+        subcategory: "Laptops",
         brand: "HP",
-       tags: ["hp", "windows", "core i5", "8go", "256ssd", "19 pouces", "desktop"],
-        image: "./IMG/HP Core I5+19 NEUF/2.jfif",
+       tags: ["hp", "windows"],
+        image: "./IMG/HP ELITEBOOK 840 G6 I7/1.jpg",
         details: [
-            "Neuf",
-            "Noir",
+            "Réconditionné",
+            "Grise",
             "HP",
-            "500",
-            "8go",
-            "3.4 core i5",
+            "512Go SSD",
+            "16Go",
+            "CORE I7 8è",
         ],
-        desc: "Nous vendons Hp pro 6300 microtower coreI5 avec écran 19 pouces \n " +
-            "Core i5 3570 ou 3470: 3.40ghz.à 3,8ghz. Mémoire 8 go extensible à 16go.\n" +
-            "Disque dur 500 go. Disponible aussi avec 1000go . Graveur dvd .\n" +
-            "Windows 10 professionnel 64 bits -office-antivirus et tous les utilitaires( acrobat reader etc,,,) \n" +
-            "Prêt à l'emploi et garanti. \n",
+        desc: "Ordinateur Portable HP Elitebook 840 G6.I7\n " +
+            "CORE I7 8éme GENERATION\n" +
+            "RAM 16GO\n" +
+            "DISQUE : SSD 512GO\n" +
+            "ECRAN 14 POUCES\n",
             
     },
     
 
  {
         id: "p-61",
-        name: "HP Core I7 neuf + 19 pouces",
-        price: 300000,
+        name: "HP ELITEBOOK 840G3 I5",
+        price: 125000,
         stock: "En stock",
         category: "computers",
-        subcategory: "Ordinateurs de bureau",
+        subcategory: "Laptops",
         brand: "HP",
-        tags: ["hp", "windows", "core i7", "8go", "512ssd", "19 pouces", "desktop"],
-        image: "./IMG/HP Core I7 neuf + 19/2.jfif",
+        tags: ["hp", "windows"],
+        image: "./IMG/HP ELITEBOOK 840G3 I5/1.jpg",
         details: [
-            "Neuf",
-            "Noir",
+            "Réconditionné",
+            "Gris",
             "HP",
-            "1000",
-            "8go",
-            "3.4 core i7",
+            "256Go SSD",
+            "8Go",
+            "CORE I5 6è",
         ],
-        desc: "Nous vendons des machines fixes Hp pro 6300 microtower coreI7 avec écran 19 pouces.  \n " +
-            ". Core i7 3770: 3.40ghz.à 3,8ghz. Mémoire 8 go extensible à 16go. \n" +
-            " Disque dur 1000 go. Graveur dvd .Windows 10 professionnel 64 bits -office-antivirus et tous les utilitaires( acrobat reader etc,,,)\n" +
-            "Prêt à l'emploi et garanti. \n",
+        desc: "Ordinateur Portable elitebook 840 G3.I5\n " +
+            "CORE I5 6émE GENERATION\n" +
+            "RAM 8GO EXTENSIBLE A 16 GO\n" +
+            "DISQUE : 256SSD EXTENSIBLE A 512GO\n"+"ECRAN 14 POUCES\n"+"CLAVIER RETRO ECLAIRE",
     },
     {
         id: "p-1",
-        name: "Desktop Pro 14\" i7/16Go/1To",// A revoir
-        price: 790000,
+        name: "HP ELITEBOOK 840G6 I5",
+        price: 165000,
         stock: "En stock",
         category: "computers",
-        subcategory: "Ordinateurs de bureau",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["desktop", "lenovo", "windows"],
-        image: "./images/HP/hp3.jpg",
+        image: "./IMG/HP ELITEBOOK 840G6 I5/1.jpg",
         details: [
             "Réconditionné",
-            "Noir",
+            "Gris",
             "HP",
-            "500 Go ET/OU 256 SSD",
-             "08 Go EXTENSIBLE à 16 GO",
-            "Intel Core i7 de 7e génération",
-            " 22 à 24 Pouces",
-            "longue durée jusqu'à 10 heures",
+            "256Go SSD, 512Go SSD",
+            "08 Go EXTENSIBLE à 16 GO",
+            "Core i5",
         ],
-        desc: "ENSEMBLE ORDINATEUR COMPLET CORE I7 7 ème génération\" " +
-            "DISPONIBLE EN HP PRODESK 400 G4 SSF.\"" +
-            " AVEC UNE MÉMOIRE DE 8GO EXTENSIBLE à 16GO, \"" +
-            "DISQUE DUR 500 GO ET/OU SSD 256 GO. ECRAN 22 à 24 POUCES\n\"" +
-            "A PARTIR DU PRIX INDIQUE",
+        desc: "Ordinateur Portable elitebook 840 G5 ET G6.I5\n" +
+            "CORE I5 8émE GENERATION\n" +
+            "RAM 8GO EXTENSIBLE A 16 GO\n" +
+            "DISQUE : 256SSD EXTENSIBLE A 512GO\n\"" +
+            "ECRAN 14 pouces\n"+
+            "CLAVIER RETRO ECLAIRE"
     },
     {
         id: "p-3",
-        name: "Core I5 et I7.Ram 8GO\" Ecran 19 à 24\"+wifi",// A revoir
+        name: "HP ELITEBOOK 840G6 i7",
         price: 50000,
         stock: "En stock",
         category: "computers",
