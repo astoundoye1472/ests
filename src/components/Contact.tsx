@@ -7,7 +7,7 @@ export function Contact() {
     {
       icon: <MapPin className="h-6 w-6 text-blue-600" />,
       title: "Adresse",
-      content: "25 Avenue C.A.Bamba Colobane en face du lycée Colobane", 
+      content: "25 Avenue C.A.Bamba Colobane en face du lycée Kennedy", 
       description: "Bureaux"
     },
     {
