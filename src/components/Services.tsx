@@ -9,42 +9,42 @@ export function Services() {
       icon: <ShoppingCart className="h-8 w-8 text-blue-600" />,
       title: "Vente de Matériel Informatique",
       description: "Large gamme d'ordinateurs, serveurs, périphériques et accessoires informatiques de marques reconnues.",
-      image: "/images/materiels.png",
+      image: "/images/services1.jpg",
       features: ["Ordinateurs portables et de bureau", "Serveurs d'entreprise", "Périphériques et accessoires", "Garantie constructeur"]
     },
     {
       icon: <Wrench className="h-8 w-8 text-green-600" />,
       title: "Maintenance & Réparation",
       description: "Services de maintenance préventive et curative pour tous types d'équipements informatiques.",
-      image: "/images/image-maintenance.png",
+      image: "/images/service2.png",
       features: ["Diagnostic complet", "Réparation sur site", "Maintenance préventive", "Remplacement de pièces"]
     },
     {
       icon: <Network className="h-8 w-8 text-purple-600" />,
       title: "Réseaux & Câblage",
       description: "Conception, installation et maintenance de réseaux informatiques et infrastructure de câblage.",
-      image: "/images/Réseaux.png",
+      image: "/images/réseauCablage.png",
       features: ["Câblage structuré", "Configuration de routeurs", "Réseaux Wi-Fi", "Sécurité réseau"]
     },
     {
       icon: <Settings className="h-8 w-8 text-orange-600" />,
       title: "Installation & Configuration",
       description: "Installation et configuration de systèmes d'exploitation, logiciels et applications métier.",
-      image: "/images/install.png",
+      image: "/images/configInstallation.png",
       features: ["Systèmes d'exploitation", "Logiciels métier", "Configuration sécurisée", "Migration de données"]
     },
     {
       icon: <Headphones className="h-8 w-8 text-red-600" />,
       title: "Support Technique",
       description: "Assistance technique à distance et sur site pour résoudre tous vos problèmes informatiques.",
-      image: "/images/assitance.png",
+      image: "/images/service5.jpg",
       features: ["Support 24h/7j", "Assistance à distance", "Formation utilisateurs", "Documentation technique"]
     },
     {
       icon: <Laptop className="h-8 w-8 text-teal-600" />,
       title: "Consulting IT",
       description: "Conseil en stratégie informatique pour optimiser votre infrastructure et vos processus.",
-      image: "/images/assistance.png",
+      image: "/images/service6.jpg",
       features: ["Audit informatique", "Stratégie IT", "Optimisation des coûts", "Modernisation"]
     }
   ];

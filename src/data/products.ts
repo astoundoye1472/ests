@@ -84,457 +84,426 @@ export const PRODUCTS: Product[] = [
  
   {
     id: "p-2",
-    name: "DELL X360  TACTILE", // A revoir
-    price: 75000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Laptops",
-    brand: "Dell",
-    details: ["Réconditionné","ROUGE, NOIR, JAUNE, GRISE, BLEU,...", "Dell","128GO", "4GO", "Intel"],
-    tags: ["bureau","portable","tactile"],
-    image: "./IMG//HP X360 DELL TACTILE/2.jpg",
-    desc: " Dell 3190\n"+
-    "Disque dur 128 giga ssd\n"+ "Mémoire Ram 4giga\n"+ "Ecran 11.6 Pouces convertible x360\n"+ "Dell 3190 disponible avec 8go 256 ssd\n"+ "Port type C,2usb, Rj45, support carte mémoire,hdmi,2port usb...\n"+ "Tablette avec écran tactile en même temps\n"+ "très léger pour étudiants et professionnels"
-  },
-  {
-    id: "p-4",
-    name: "LENOVO T14.Core I7 11 ou 12 éme gen.14 pouces FHD ou TACTILE",
-    price: 325000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Laptops",
-    brand: "Lenovo",
-    tags: ["portable", "bureau"],
-    image: "./IMG/LENOVO T14.Core I7 11 ou 12 éme gen.14 pouces FHD ou TACTILE/1.jfif",
-    desc: "ORDINATEUR PORTABLE LENOVO T14\n"+ "PROCESSEUR: CORE I7 11éme à 12-ème génération\n"+
-    "RAM: 16 GO EXTENSIBLE A 32 GO\n"+ "DISQUE: SSD512 EXTENSIBLE 1TERA\n"+ "ECRAN 14 POUCES FHD OU TACTILE\n"+ "A PARTIR DU PRIX INDIQUE",
-    details: ["Réconditionné","NOIR","Lenovo","512 SSD","16GO","CORE I7"]
-  },
-  {
-    id: "p-6",
-    name: "Lenovo L380 YOGA X360. i5. 8GO. 256GOSSD. 13.3. tactile+Stylet",
-    price: 150000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Laptops",
-    brand: "Lenovo",
-    tags: ["portable", "bureau", "tactile"],
-    image: "./IMG/Lenovo L380 YOGA X360.i5.8GO.256GOSSD.13.3tactile+Stylet/1.jfif",
-    details:["Réconditionné","NOIR","Lenovo","256SSD","8GO","i5, 8250 U de 8ème generation"],
-    desc: "Lenovo Thinkpad L380 YOGA X360\n"+ "Core i5 (8e gén) - 8GO\n"+ "256GO SSD\n"+ 
-    "Ecran 13.3 pouces tactile pliable\n"+ "Lenovo Thinkpad L380 (mince et très leger)\n"+ 
-    "Processeur: Core i5-8250 U de 8 -ème generation\n"+ "Fréquence de base du processeur: 1.6GHz\n"+
-     "Fréquence maximum du processeur: 3,4GHz\n"+ "Mémoire vive (RAM): 8Go DDR4 extensible à 16 ou même 32Go\n"+ 
-     "Type de stockage: SSD 256Go extensible à 512Go ou+\n"+ "Modèle du chipset graphique: HD Graphics 620\n"+
-      "Taille d'écran: 13,3 pouces (33,8cm) tactile\n"+ "Résolution d'écran: 1920 x 1080 pixels (Full HD)\n"+ 
-      "IPS Wi-Fi : 802.11ac (Wi-Fi 5)\n"+ "Bluetooth 4.1 Webcam: 720p / 1280 x 720 pixel\n"+ 
-      "Connectique audio: 1 x Combo Casque/Micro/ Dolby Advanced Audio\n"+ 
-      "PORTS : type A USB 3.2 Gen 1 (3.1 Gen 1) type C USB 3.2 Gen 1 (3.1 Gen 1 Sortie HDMI: 1 x HDMI 1.4 Adaptateur secteur USB-C® 65 W\n"+ 
-      "Poids (en kg): 1,\n"+ "Système d'exploitation: Windows 10 OU 11 PROFESSIONNEL\n"+"OFFICE 2019.\n"+
-      "TOUS LES UTILITAIRES INSTALLES\n"+ "A PARTIR DU PRIX INDIQUE"
-  },
-  {
-    id: "p-8",
-    name: "ORDINATEUR CORE I5 I7 AVEC ECRAN DE 19 à 24 POUCES",// A revoir
+    name: "Ordinateur Acer CORE I5.4GO.250GO.19",
     price: 50000,
     stock: "En stock",
     category: "computers",
     subcategory: "Ordinateurs de bureau",
-    brand: "Lenovo",
+    brand: "Acer",
+    details: ["D'occasion","NOIR", "Acer","250 GO SATA OU SSD 128 GO", "4GO", "3.20ghz"],
+    tags: ["bureau","occasion","acer","desktop"],
+    image: "./IMG/CORE I5.4GO.250GO.19/1.jpg",
+    desc: " Dell 3190\n"+
+    "Ordinateurs complets avec écran 19\" en HP LENOVO DELL ET ACER" +
+        "\n"+ "Mémoire Ram 4giga\n"+ "Core i5 3.20 ghz, 4 go de mémoire Ram extensible à 8go\n"
+        + "disque dur 250 go sata ou 128 go ssd extensible à 500go sata ou 256 go ssd\n"+
+        "Wifi en option . Windows 10 Pro, Office, Antivirus etc... prêt à l'emploi.\n"+
+        "Machines puissantes idéales pour transfert d'argent, multidevises et tous travaux de bureau et d'internet.\n"+
+        "Tout nos produits sont garantis. A PARTIR DU PRIX INDIQUE"
+  },
+  {
+    id: "p-4",
+    name: "CORE I7 4 à 7ème génération .8GO.500GO.19à 24 pouces",
+    price: 80000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "Ordinateurs de bureau",
+    brand: "Acer",
+    tags: ["desktop", "bureau"],
+    image: "./IMG/CORE I7 4 à 7ème génération .8GO.500GO.19à 24 pouces/1.jpg",
+    desc: "Ordinateur complet avec écran 19 à 24 pouces disponibles en Acer ,HP, Lenovo et Dell selon le stock\n"+
+        "Core i7 de la 4 -ème à la 7ème génération.\n"+
+    "Mémoire RAM 8 disponible aussi avec 16 go\n"+
+        "Disponibles au en 20.22 et 24 pouces disponibles aussi en option\n"+
+        "A PARTIR DU PRIX INDIQUE",
+    details: ["D'occasion","NOIR","Acer","500GO SATA OU SSD 256 GO","8GO","CORE I7"]
+  },
+  {
+    id: "p-6",
+    name: "Laptop DELL.3340.3350.Core I3.8go.500 go13 .3 TACTILE",
+    price: 85000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "Laptops",
+    brand: "Dell",
+    tags: ["portable", "bureau", "tactile"],
+    image: "./IMG/DELL.3340.3350.Core I3.8go.500 go13 .3 TACTILE/1.jpg",
+    details:["Réconditionné","NOIR, GRISE, BLEU","Dell","500GO","8GO","Core i5"],
+    desc: "DELL Latitude 3340 ET 3350 Core i3\n"+ "Intel Core i3 (4 ème et 5ème Génération )\n"+
+        "DISQUE DUR: 500 Go\n"+
+    "MEMOIRE Ram: 8 Go\n"+ "Port HDMI / Bluetooth / Wifi / Webcam / Lecteur SD, Écran 13.3\" Tactile"
+  },
+  {
+    id: "p-8",
+    name: "DELL LATITUDE 5502 Core I7 11 ème 15.6 pouces +pavé",
+    price: 325000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "Laptops",
+    brand: "Dell",
     tags: ["all-in-one", "écran", "bureau", "portable", "Laptops"],
-    image: "./IMG/Ordinateur Core i5 ou I7 Ecran 19 à 22 pouces/1.jfif",
-    details:["D'occasion","NOIR","Lenovo","250 à 500go ou SSD 128 à 256 Go","4GO","i5 ou I7 de 2ème à la 8ème génération"],
-    desc:"Ordinateurs complets avec écran 19 à 24\n"+ "disponibles Lenovo, HP,ACER et DELL selon stock\n" +
+    image: "./IMG/DELL LATITUDE 5502 Core I7 11 ème 15.6 pouces +pavé/1.jpg",
+    details:["Réconditionné","GRISE","Dell","512 ssd","16GO","CORE I7 11ème génération"],
+    desc:"DELL 5502 CORE I7 11 eme .Ecran 15.6 pouces\n"+ "Intel® Core™ i7-1185G7 de 11e génération (12 Mo de mémoire cache, 4 cœurs, 8 threads, de 3 GHz à 4,80 GHz, 17,5 W)\n" +
 "Core i5 ou i7(de la 2 -ème à la 8 -ème génération)\n" +
-"Mémoire Ram de 4 à 8 go extensible à 16 go\n" +
-"Disque dur:250 à 500go ou SSD 128 à 256 Go.\n"+
-"En Option :Wifi, Carte Graphique de 2 à 4 go\n"+
-"Windows 10 ou 11 Professionnel 64 bits, Office 2019 , Antivirus etc...\n"+
-"prêt à l'emploi. Machines idéales pour tous travaux de bureau et d'internet ou de montage videos.\n"+
+"16 Go de mémoire DDR4 extensible à 32 GO\n" +
+"Écran FHD 15 pouces, 1 920 x 1 080, 60 Hz, antireflet, non tactile, 45 % NTSC, 250 cd/m², grand angle de vue\n"+
+"Disque SSD M.2 PCIe de 512 Go\n"+
+"Clavier avec pavé numerique\n"+
+"Communication sans fil Wi-Fi AX + Bluetooth\n"+
+        "1 Port RJ45, 1 Port USB 3.2, 1 Port USB 3.2 PowerShare, 2 Port Thunderbolt™ 4 avec Power Delivery et DisplayPort (USB-C™), 1 HDMI 2.0, 1 Prise jack universelle pour casque, Windows 10 Professionnel 64 bits et tous les logiciels\n"+
 "Tous nos produits sont garantis \n"+
 "A PARTIR DU PRIX INDIQUE"
   },
   {
     id: "p-10",
-    name: "ALL IN ONE TACTILE 24\"",
-    price: 225000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Ordinateurs de bureau",
-    brand: "Lenovo",
-    tags: ["all-in-one", "écran", "bureau"],
-    image: "./IMG/ALL IN ONE TACTILE 24/1.jpg",
-    details:["reconditionné","NOIR","Lenovo","256 GO SSD","8GO","CORE I5 6ème"],
-
-    desc:"ThinkCentre M900z All-in-One\n"+ "Ecran tactile 60,45 cm (23,8)\n" +
-"Core™ i5 6 ème génération\n" +
-"Mémoire 8go extensible à 16 go\n" +
-"Disque ssd 256 go extensible à 512 ou plus\n"+
-"Windows 10 Professionnel 64 bits, Office 2019"
-  }, 
-  {
-    id: "p-12",
-    name: "DELL 5470 .I7 6ème Gen.8Go.SSD 256 2GO GRAPHIQUE",
-    price: 140000,
+    name: "DELL X360 TACTILE 11.6\"",
+    price: 80000,
     stock: "En stock",
     category: "computers",
     subcategory: "Laptops",
     brand: "Dell",
-    tags: ["portable", "laptop"],
-    image: "./IMG/DELL 5470 .I7 6ème Gen.8Go.SSD 256 2GO GRAPHIQUE/1.jpg",
-    details:["reconditionné","NOIR","dell","256SSD","8GO","CORE I7"],
-    desc:"DELL LATITUDE 5470 Core I7 6 ème Gen .8Go.SSD 256 Go.14 POUCES Full HD.carte graphique Radeon R7 M360 2 Go\n" +
-"Webcam .HDMI\n" +
+    tags: ["dell", "écran tactile", "portable"],
+    image: "./IMG/DELL X360 TACTILE 11.6/1.jpg",
+    details:["reconditionné","NOIR","Dell","128 SSD","8GO","INTEL PENTIUM"],
+
+    desc:"Ordinateur Portable DELL LATITUDE 3189\n"+ "Ram: 8GO, DISQUE DUR: 128 GO extensible à 256GO\n" +
+"ÉCRAN 11.6 POUCES TACTILE X360\n" +
+"Disponible aussi en 8GO 256 SSD pour un petit supplément."
+  }, 
+  {
+    id: "p-12",
+    name: "Gamer Dell et HP",
+    price: 200000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "Ordinateurs de bureau",
+    brand: "Dell",
+    tags: ["portable", "desktop"],
+    image: "./IMG/Gamer Dell et HP/1.jpg",
+    details:["reconditionné","GRISE","Dell","756 GO","16GO"," Intel XEON E5420 ou 5430"],
+    desc:"Dell Precision ou HP Z400 et 420\n" +
 "(RECONDITIONNE USINE AVEC CARTON D'ORIGINE)\n" +
-"Très bon choix à moindre prix pour les le DESIGN, l'ARCHITECTURE , l'édition de photos et de vidéos\n"+
-"Processeur Intel Core i7-6600U de 6e génération (double cœur, jusqu'à 3,40 GHz, 4 Mo de cache, 15 W)\n"+
-"Disque stockage : SSD 256Go à 512go (jusqu'a 35 fois plus rapide qu'un disque SATA de 500go) extensible à 512 Go\n"+
-"Carte graphique AMD Radeon R7 M360, carte graphique séparée de 2 Go\n"+
-"Clavier retro éclaire\n"+
-"Lecteur empreinte digitaleLecteur empreinte digitale\n"+
-"Ecran : 14.1'' HD - LED - MAT Antireflets - Full HD - Résolution 1920*1080\n"+
-"Carte son : Intégrée - Enceintes et microphone/Réseau : 100/1000 - Gigabit Ethernet/Webcam : Oui HD\n"+
-"Carte réseau sans fil Dell Wireless 1820 802.11AC double bande Wi-Fi + Bluetooth 4.1\n"+
-"Ports de connexion \n"+
-"3 x USB 3.0-3.1/1 x VGA - HD D-Sub (HD-15) 15 broches/1 x HDMI/1 x Lecteur de cartes mémoires : SD/1 x SmartCard\n"+
-"Reader/1 x Gigabit Ethernet (RJ45) 10/100/1000Mbps/1 x Port Station d'accueil / duplicateur de ports\n"+
-"1 x Microphone - entrée / Audio - sortie de ligne/casque\n"+
-"Système d'exploitation installé et suite office : Microsoft Windows 11 Professionnel 64 bits /OFFICE 2019\n"+
+"Processeur : Intel XEON E5420 ou 5430 Fréquence : 2.66Ghz.\n"+
+"Mémoire Ram 16go : Disque dur : 1ssd 256go en master+1de 500 Go sata en slave.\n"+
+"Ecran 22 à24 pouces.\n"+
+"Carte graphique de 4 go\n"+
 "A PARTIR DU PRIX INDIQUE"
 
   },
     {
     id: "p-14",
-    name: "Lenovo Thinkpad T460 Core I5 6 eme.8Go.SSD 256 Go.",
-    price: 115000,
+    name: "GAMER DELL PRECION +ECRAN 24",
+    price: 250000,
     stock: "En stock",
     category: "computers",
-    subcategory: "Laptops",
-    brand: "Lenovo",
-    tags: ["portable", "laptop"],
-    image: "./IMG/Lenovo Thinkpad T460 Core I5 6 eme.8Go.SSD 256 Go/1.jfif",
-    details:["Réconditionné","NOIR","Lenovo","256 SSD","8GO","CORE I5"],
-    desc:"Lenovo Thinkpad T460 Ultrabook (mince et très léger) avec 2 batteries. Très bonne autonomie\n" +
-"Processeur : Intel Core i5-6300U (6e génération, jusqu'à 3,0 GHz)\n" +
+    subcategory: "Ordinateurs de bureau",
+    brand: "Dell",
+    tags: ["fixe", "desktop", "gamer"],
+    image: "./IMG/GAMER DELL PRECISION +ECRAN 24/1.jpg",
+    details:["Réconditionné","NOIR","Dell","1Téra","16GO","Intel Xeon E5-2609"],
+    desc:"Modèle: Dell Précision\n" +
+"Format: Tour\n" +
 "RAM : 8 Go DDR4 extensible à 16 et 32GO\n" +
-"Stockage : SSD 256 Go extensible à 512go (démarrage rapide et applications réactives)\n"+
-"Écran : Écran antireflet HD/FHD de 14 pouces\n"+
-"Graphiques : Intel HD Graphics 520\n"+
-"Ports : USB 3.0, HDMI, Mini DisplayPort, LAN, prise audio, lecteur de carte SD\n"+
-"Connectivité : Wi-Fi, Bluetooth\n"+
-"Webcam : Caméra HD intégrée\n"+
-"A PARTIR DU PRIX INDIQUE"
+"Processeur : Double Intel Xeon E5-2609 2,40 GHz - Turbo : 3,00 Ghz-3\n"+
+"Mémoire Vive : 16Go - DDR4 ECC EXTENSIBLE A 64GO, 512SSD en master +500Go SATA en slave\n"+
+"512SSD en master +500Go SATA en slave\n"+
+"Carte graphique : NVIDIA GTX 4Go A 8GO GDDR5\n"+
+"Carte son : Intégrée\n"+
+"Réseau : Gigabit Ethernet\n"+"ECRAN 24 POUCES\n"+"Système d'exploitation installé : Microsoft Windows 10 Professionnel 64 bits\n"+
+"DISPONIBLE A PARTIR DU PRIX INDIQUE"
   },
    {
     id: "p-16",
-    name: "Lenovo ThinkPad 13 Core i5-7 eme Gen.8Go.256 Go SSD.",
-    price: 100000,
+    name: "GAMER DELL PRECISION T7810",
+    price: 400000,
     stock: "En stock",
     category: "computers",
-    subcategory: "Laptops",
-    brand: "Lenovo",
-    tags: ["portable", "laptop"],
-    image: "./IMG/Lenovo ThinkPad 13 Core i5-7 eme Gen.8Go.256 Go SSD/2.jfif",
-    details:["Réconditionné","NOIR","Lenovo","256 SSD","8GO","CORE I5"],
-    desc:"Lenovo ThinkPad 13 Intel Core i5-7200U 8Go de RAM 256 Go SSD\n" +
-"Processeur : Intel Core i5 7 -ème\n" +
-"Mémoire : 8GO à 16 Go de RAM.\n" +
-"Stockage : 256 SSD à 512 Go.\n"+
-"Ecran (13.3) 33,8 cm Full HD 1920 x 1080 pixels IPS Rétroéclairage à LED Mat 16:9\n"+
-"Connectivité : avec prise en charge des signaux sans fil 802.11 AC Bluetooth\n"+
-"Ports : 2 x USB 3.0 + 1 x USB 3.0 (alimenté) + 1 x USB-C. + 1 x HDMI OneLink + Lecteur de cartes 4 en 1 (SD,SD-HC,D-XC,MMC)\n"+
-"1 x prise combinée casque/microphone.\n"+
-"Système d'exploitation et suite office : Microsoft Windows 11 Professionnel 64 bits /OFFICE 2019\n"+
-"A PARTIR DU PRIX INDIQUE"
+    subcategory: "Ordinateurs de bureau",
+    brand: "Dell",
+    tags: ["fixe", "dell", "desktop", "gamer"],
+    image: "./IMG/GAMER DELL PRECISION T7810/1.jpg",
+    details:["Réconditionné","NOIR","Dell","256 SSD","8GO","CORE I5"],
+    desc:"Modèle : Dell Precision 7810\n" +
+"Processeur : Double Intel Xeon E5-2609 1,70 GHz - Turbo : 3,00 Ghz-3\n" +
+"Mémoire Vive : 32Go - DDR4 ECC EXTENSIBLE A 64GO\n" +
+"Disque dur : OPTION 1: 256SSD en master +500Go SATA en slave\n"+
+"OPTION 2: 512SSD en master +1000Go SATA en slave\n"+
+"Lecteur optique : Graveur DVD\n"+
+"Carte graphique : OPTION 1 NVIDIA 4Go GDDR5\n"+
+"OPTION 2 NVIDIA - 6Go A 8GO GDDR5\n"+
+        "Carte son : Intégrée\n"+
+        "Réseau : Gigabit Ethernet\n"+
+        "Système d'exploitation installé : Microsoft Windows 10 Professionnel 64 bits\n"+
+"LOGICIELLE ARCHITECTURE: AUTOCAD, ARCHICAD, GRAYTEC,ETC.... DISPONIBLES\n"+
+"Alimentation : 685 Watts"
   },
    {
     id: "p-18",
-    name: "DELL LATITUDE E5550 I5 15.6 TACTILE +PAVE",
-    price: 125000,
+    name: "GAMER DELL PRECISION 5810 XEON.NVIDIA 4go.24 POUCES",
+    price: 300000,
     stock: "En stock",
     category: "computers",
-    subcategory: "Laptops",
+    subcategory: "Ordinateurs de bureau",
     brand: "Dell",
-    tags: ["portable", "laptop"],
-    image: "./IMG/DELL LATITUDE E5550 I5 15.6 TACTILE +PAVE/1.jpg",
-    details:["Réconditionné","NOIR","dell","256 SSD","8GO","CORE I5"],
-    desc:"Ordinateur portable DELL LATITUDE 5550\n" +
-"ECRAN 15.6 POUCES TACTILE\n" +
-"CLAVIER +PAVE NUMERIQUE\n" +
-"Processeur : Intel Core i5 5 eme generation - 2.9 Ghz - 4 threads\n"+
-"Mémoire Vive : 8 à16 Go\n"+
-"Disque stockage : 256 à 512 Go SSD\n"+
-"Carte graphique : Intel HD Graphics 5500\n"+
-"Carte son : Intégrée - Enceintes et microphone\n"+
-"Réseau : 100/1000 - Gigabit Ethernet\n"+
-"Wifi : Oui\n"+
-"Bluetooth : Oui\n"+
-"Webcam : Oui\n"+
-"Pavé numérique : Oui\n"+
-"Résolution : 1366x768\n"+
-"Professionnel 64 bits ou Windows 10 Pro\n"+
-"Ports de connexion\n"+
-"2 x Super-Speed USB (3.0)\n"+
-"2 x Hi-Speed USB (2.0)\n"+
-"1 x VGA - HD D-Sub (HD-15) 15 broches\n"+
-"1 x HDMI\n"+
-"1 x Lecteur de cartes mémoires : SD\n"+
-"1 x Express Card 54mm\n"+
-"1 x Gigabit Ethernet (RJ45) 10/100/1000Mbps\n"+
-"1 x Station d'accueil / duplicateur de ports\n"+
-"1 x Microphone - entrée / Audio - sortie de ligne/casque\n"+
-"A PARTIR DU PRIX INDIQUE"
+    tags: ["fixe", "desktop", "gamer", "dell"],
+    image: "./IMG/GAMER DELL PRECISION 5810 XEON.NVIDIA 4go.24 POUCES/1.jpg",
+    details:["D'occasion","NOIR","dell","SSD 512 go + 500 go SATA","32GO","Intel Xeon E5-1607 v3"],
+    desc:"Gamer Dell 5810\n" +
+"Ecran 24 Pouces\n" +
+"Intel Xeon E5-1607 v3\n" +
+"Fréquence de base du processeur: 3,10GHz\n"+
+"Nombre de cœurs 4\n"+
+"RAM 32 extensible à 128go\n"+
+"2 Disques Durs :SSD 512 go en master+,disque 500 go SATA en slave\n"+
+"Carte Graphique NVIDIA 4go à 8go\n"+
+"À partir du prix ci-dessous"
   },
     {
     id: "p-20",
-    name: "Lenovo yoga 11e 4go 128go 11,6''\n",
-    price: 60000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Laptops",
-    brand: "Lenovo",
-    tags: ["portable", "laptop"],
-    image: "./IMG/Lenovo yoga 11e 4go 128go 11,6''/1.jpg",
-    details:["Réconditionné","NOIR","Lenovo","128 SSD","4GO","intel"],
-    desc:"Ordinateur portable Lenovo Thinkpad Yoga 11e 11.6 pouces\n" +
-"Processeur 1,6 GHz INTEL\n" +
-"RAM 4 à 8 Go DDR3E\n" +
-"Disque dur SSD de 128 à 256 SSD\n"+
-"Ecran 11,6 pouces non Tactile\n"+
-"Nombre de ports USB 2.0 1\n"+
-"Nombre de ports USB 3.0 1\n"+
-"A partir du prix indiquer ci dessous"
-  },
-  {
-    id: "p-22",
-    name: "DELL E5530 CORE I7 15'' PAVE",
-    price: 135000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Laptops",
-    brand: "Dell",
-    tags: ["portable", "laptop"],
-    image: "./IMG/DELL E5530 CORE I7 15'' PAVE/1.jpg",
-    details:["D'occasion","NOIR","dell","256 SSD","16GO","CORE I7",],
-    desc:"DELL LATITUDE E5530 CORE I7 3éme GENERATION\n" +
-"Processeur Intel Core i7 3 eme generation\n" +
-"16 Go de mémoire DDR3 2x 8 Go\n" +
-"Ecran de 15.6\n"+
-"SSD 256 Go\n"+
-"Clavier avec pavé Numérique\n"+
-"Windows 10 Professionnel 64 bits"
-  },
-    {
-    id: "p-24",
-    name: "Dell Core I5 Écran 22\" WIFI",
+    name: "GAMER DELL T7810. NVIDIA 8GO+24HDMI",
     price: 60000,
     stock: "En stock",
     category: "computers",
     subcategory: "Ordinateurs de bureau",
     brand: "Dell",
-    tags: ["bureau", "desktop", "ordinateur fixe", "dell", "windows"],
-    image: "./IMG/Core I5 Écran 22 WIFI/1.jpg",
-    details:["Réconditionné","Gris","dell","500GO","4GO","3.20Ghz"],
-    desc:"Ordinateurs Complets avec écran 22 pouces\n" +
-"Disponible en acer desktop selon stock : \n" +
-"Core I5 3.20ghz 4go de mémoire Ram , \n" +
-" disque dur 500go extensible à 1000go\n"+
-"Écran 22 pouces et Wifi en option\n"+
-" Windows 10Pro , Office , Antivirus etc... prêt à l'emploi\n"+
-"Machines idéales pour tous travaux de bureau et d'internet\n"+
-"Tous nos produits sont garantis"
+    tags: ["fixe", "desktop", "gamer", "dell", "nvidia"],
+    image: "./IMG/GAMER DELL T7810. NVIDIA 8GO+24HDMI/1.jpg",
+    details:["Réconditionné","NOIR","Dell","32Go","+1.5Téra","Double Intel Xeon E5-2609"],
+    desc:"Modèle : Dell Precision 7810\n" +
+"Format : Tour\n" +
+"Processeur : Double Intel Xeon E5-2609 1,70 GHz - Turbo : 3,00 Ghz-3\n" +
+"Mémoire Vive : 32Go - DDR4 ECC EXTENSIBLE A 128GO\n"+
+"Disque dur : 512SSD en master +1000Go SATA en slave\n"+
+"Lecteur optique : Graveur DVD\n"+
+"Carte graphique : NVIDIA GTX 8GO GDDR5\n"
+        +"Carte son : Intégrée\n"
+        +"Réseau : Gigabit Ethernet\n"
+        +"Système d'exploitation installé : Microsoft Windows 10 Professionnel 64 bits\n"+
+        "LOGICIELLE ARCHITECTURE: AUTOCAD, ARCHICAD, GRAYTEC,ETC.... DISPONIBLES"
+  },
+  {
+    id: "p-22",
+    name: "GAMER HP Z400 ou Z420.16GO.4 go GRAPHIQUE+22 POUCES",
+    price: 200000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "Ordinateurs de bureau",
+    brand: "HP",
+    tags: ["fixe", "desktop", "gamer", "dell", "windows"],
+    image: "./IMG/GAMER HP Z400 ou Z420.16GO.4 go GRAPHIQUE+22 POUCES/1.jpg",
+    details:["D'occasion","NOIR","dell","756 SSD","16GO","Z420 XEON CPU F5 1603",],
+    desc:"HP Z420 XEON CPU F5 1603 Processeur 2.80ghz\n" +
+"Ram 16go extensible à 32go.\n" +
+"Disque ssd 256go en master+500Go en slave\n" +
+"carte graphique de 4Go dedié\n"+
+"Ecran 22 à 24 pouces\n"+
+"Clavier avec pavé Numérique\n"+
+"Machine idéale pour architecture et autres applications exigeantes"
+  },
+    {
+    id: "p-24",
+    name: "GAMER HP Z420 +24Graphique de 4go+16go 256go",
+    price: 200000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "Ordinateurs de bureau",
+    brand: "HP",
+    tags: ["bureau", "desktop", "ordinateur fixe", "HP", "windows"],
+    image: "./IMG/GAMER HP Z420 +24Graphique de 4go+16go 256go/1.jpg",
+    details:["D'occasion","Noir","HP","256ssd +500go","16GO","intel xeon CPU E1630"],
+    desc:"Gamer HP Z420 intel xeon CPU E1630 avec les caractéristiques suivants: " +
+        "Processeur 2.80ghz (4CPUs) Ram 16go extensible à 32go, Disque SSD256 Go en master + 500go Sata slave\n" +
+"Carte Graphique 4go +Ecran 24 pouces\n" +
+"Pour tout information contacter nous."
   },
   {
     id: "p-26",
-    name: "Dell I7 16go 1To 15.6",
-    price: 135000,
+    name: "GAMER HP Z640.32 GO RAM .8Go NVIDIA +24 POUCES",
+    price: 500000,
     stock: "En stock",
     category: "computers",
-    subcategory: "Laptops",
-    brand: "Dell",
-    tags: ["portable", "laptop", "dell", "windows"," core i7","16go","1to", "15.6"],
-    image: "./IMG/Dell I7 16go 1to 15.6/1.jpg",
-    details:["D'occasion","Noir","dell","1000Go (1To)","16GO","CORE I7"],
-    desc:"Je vends mon Dell LATITUDE E6530 avec les caractéritiques principales: \n" +
-"Processeur Intel Core i7-3.à 3.7ghz\n" +
-" RAM 16 Go - Disque dur 1000Go\n" +
-"Ecran 15.6 pouces \n"+
-"DVDRW - Webcam\n"+
-"Gigabit Ethernet HDMI Port pour TV,\n"+
-"Bluetooth USB 2.0\n"+
-"Multi Card Slot : 3-in-1 WebCam\n"+
-"Windows 10 pro, office, antivirus, adobe etc\n"+
-"Tous nos produits sont garantis!"
+    subcategory: "Ordinateurs de bureau",
+    brand: "HP",
+    tags: ["fixe", "desktop", "hp", "windows","32go","1to", "INTEL XEONRAM"],
+    image: "./IMG/GAMER HP Z640.32 GO RAM .8Go NVIDIA +24 POUCES/1.jpg",
+    details:["Réconditionné","Noir","hp","1000Go (1To)","32GO","INTEL XEONRAM"],
+    desc:"GAMER HP Z640.\n" +
+"2 Processeurs Intel® Xeon.\n" +
+"Ram 32 Go extensible à 64 Go.\n" +
+"2 Disques durs ssd 512go en master+500go en slave\n"+
+"cartes graphiqueNvidia de 8Go dédié +24 POUCES\n"+
+"Machine idéale pour architecture, la 3d et autres applications exigeantes et gaming."
 
   },
    {
     id: "p-28",
-    name: "Ordinateur Acer Core i3",
-    price: 45000,
+    name: "GAMER NVIDIA HP OU DELL +ECRAN",
+    price: 250000,
     stock: "En stock",
     category: "computers",
     subcategory: "Ordinateurs de bureau",
-    brand: "Acer",
-    tags: ["bureau", "desktop", "ordinateur fixe", "acer", "windows"],
-    image: "./IMG/Ordinateur Core i3/1.jpg",
-    details:["D'occasion","Noir","acer","250GO","4GO","3.10Ghz"],
-    desc:"Ensembles complets Lenovo, HP ou Acer en desktop\n" +
-".Core i3\n" +
-"Processeur 3.10ghz\n" +
-"Mémoire RAM 4go\n"+
-" Disque 250Go\n"+
-"Écran (19)\n"+
-" DVDRW - Option Wifi\n"+
-"Prêt a l'emploi: Windows 10 pro, office, antivirus, adobe etc.\n"+
-"Tous nos produits sont garantis."
+    brand: "Dell",
+    tags: ["bureau", "desktop", "ordinateur fixe", "dell", "windows"],
+    image: "./IMG/GAMER NVIDIA HP OU DELL +ECRAN/1.jpg",
+    details:["Réconditionné","Noir","Dell","1T","16GO","INTEL XEON CPU E5-1625"],
+    desc:"GAMERS DISPONIBLES EN HP ET DELL\n" +
+"Processeur INTEL XEON CPU E5-1625 v3 fréquence 3.6ghz avec 4 coeurs / 8 threads.\n" +
+"Mémoire Ram 16go extensible à 32go et plus.\n" +
+"Disque ssd 512 go master+ 500Go sata en slave\n"+
+"Carte graphique Nvidia de 4 à 8 Go\n"+
+"Ecran 22 à 24 pouces\n"+
+"Machine idéale pour architecture, la 3d et autres applications exigeantes et gaming."
 
   },
    {
     id: "p-30",
-    name: "ORDINATEUR Dell COMPLET",
-    price: 35000,
+    name: "GAMER Z620.640 8go GRAPHIQUE+22 à 24 Pouces",
+    price: 350000,
     stock: "En stock",
     category: "computers",
     subcategory: "Ordinateurs de bureau",
-    brand: "Dell",
-    tags: ["bureau", "desktop", "ordinateur fixe", "dell", "windows"],
-    image: "./IMG/ORDINATEUR COMPLET/1.jpg",
-    details:["Réconditionné","Noir","dell","80GO","4GO","2.6Ghz"],
-    desc:"Ordinateurs complets en HP, Dell et LENOVO, selon stock\n" +
-"Pentium DUAL CORE 2,6ghz à 3ghz ,\n" +
-"4 go de mémoire ram , \n" +
-"disque dur 80go disponible aussi en160 ou 250 go\n"+
-"écran 17 pouces \n"+
-"Wifi en option\n"+
-"Machines idéales pour : \n"+
-"Transfert d'argent \n"+
-"Multiservices \n"+
-"Tous travaux de bureau et d'internet \n"+
-"Tous nos produits sont garantis"
+    brand: "HP",
+    tags: ["bureau", "desktop", "ordinateur fixe", "hp", "windows"],
+    image: "./IMG/GAMER Z620.640 8go GRAPHIQUE+22 à 24 Pouces/1.jpg",
+    details:["Réconditionné","Noir","HP","756 SSD","16GO","intel xeon CPU E5620"],
+    desc:"Je mon Gamer HP Z600 Z620 Z640+22 à 24 Pouces\n" +
+"intel xeon CPU E5620 avec les caractéristiques suivants:\n" +
+"Processeur 2.40(8CPUs) Ram16 go extensible à 32go, Disque ssd 256go en master+500 go en slave.\n"+
+"Carte Graphique 8go Nviadia GTX."
   },
     {
     id: "p-32",
-    name: "Portable Dell Core I7",
-    price: 125000,
+    name: "GAMING ASUS NVIDIA GTX I7 3.33GHZ",
+    price: 200000,
     stock: "En stock",
     category: "computers",
-    subcategory: "Laptops",
-    brand: "Dell",
-    tags: ["portable", "laptop", "dell", "windows"," core i7",],
-    image: "./IMG/Portable Dell Core I7/1.jpg",
-    details:["D'occasion","Noir","dell","500Go","8GO","CORE I7"],
-    desc:"Je vends mon DELL E6510 avec les caractéritiques principales: \n" +
-" Processeur Intel Core i7-3.33ghz\n" +
-" RAM 8 Go extensible à 16 go \n" +
-"Disque dur 500Go extensible à 1 téra \n"+
-"Ecran 15.6 pouces \n"+
-"DVDRW - Webcam \n"+
-"Gigabit Ethernet HDMI Port pour TV\n"+
-"Bluetooth USB 2.0,\n"+
-"Windows 10 pro, office, antivirus, adobe etc.\n"+
-"Tous nos produits sont garantis!"
+    subcategory: "Ordinateurs portables",
+    brand: "Autre",
+    tags: ["fixe", "desktop", "autre", "windows"],
+    image: "./IMG/GAMING ASUS NVIDIA GTX I7 3.33GHZ/1.jpg",
+    details:["D'occasion","Noir","autre","756Go","16GO","ASUS NVIDIA GTX"],
+    desc:"Je vends GAMING ASUS NVIDIA GTX\n" +
+"Machine gamer, architecture ou 3D Processeur\n" +
+"Core i7 de 3.07 à 3.33ghz (4 Cœurs, 8 cpu)\n" +
+"Mémoire Ram : 16 go en . Boîtier Cooler Master HAF 922\n"+
+"Radiateur et ventilo zalman CNPS 9900 led\n"+
+"Carte mère ASUS P6TD Deluxe\n"+
+"Alimentation 800 watts certifié XION-800P14N Silent bleue LED\n"+
+"Carte Nvidia GTX 1650 de 4go vram\n"+
+"Disque durs: Ssd 256 go en master et sata 500 go en slave.\n"
+        +"Clavier et souris sans fil\n"
+        +"Wi-fi de 300mbts.\n"+
+"Windows 10 64bits pro .En option : Écran de 24 pouces"
 
   },
   {
     id: "p-34",
-    name: "ORDINATEUR Dell Core2.250go.19.Ordinateur Complet",
-    price: 40000,
+    name: "Gaming I7.NVIDIA4Go.16GoRAM+.23",
+    price: 180000,
     stock: "En stock",
     category: "computers",
     subcategory: "Ordinateurs de bureau",
-    brand: "Dell",
-    tags: ["bureau", "desktop", "ordinateur fixe", "dell", "windows"],
-    image: "./IMG/Core2.250go.19.Ordinateur Complet/2.jpg",
-    details:["D'occasion","Noir","dell","250GO","4GO","Core 2 duo"],
-    desc:"Nous vendons des ordinateurs complets avec \n" +
-"écran 19 en Dell, Lenovo et HP selon stock :\n" +
-"intel pentium ou Core 2 duo,\n" +
-"2.60 à 3.10 ghz,\n"+
-"2 à 4 go de mémoire Ram,\n"+
-"disque dur 160 à 250 go \n"+
-"Wifi en option\n"+
-"Windows , Office, Antivirus etc...prêt à l'emploi\n"+
-"Machines idéales pour : \n"+
-"Transfert d'argent \n"+
-"Multiservices \n"+
-"Tous travaux de bureau et d'internet \n"+
-"Tous nos produits sont garantis"
+    brand: "HP",
+    tags: ["bureau", "desktop", "ordinateur fixe", "hp", "windows"],
+    image: "./IMG/Gaming I7.NVIDIA4Go.16GoRAM+.23/1.jpg",
+    details:["D'occasion","Noir","HP","500GO","16GO","Core i7- 3.40 Ghz"],
+    desc:"HP TOUR ou DESKTOP selon stock\n" +
+"CORE I7 +23 POUCES\n" +
+"Core i7- 3.40 Ghz - 4 coeurs - Turbo : 3,9Ghz\n" +
+"Mémoire Ram : 16 Go. Disque dur 500 go\n"+
+"Nvidia Geforce GT 730 DE 4GO\n"+
+"Total affichage graphique 12go.( 4go de mémoire dédiée +8Go de mémoire partagée )\n"+
+"EN OPTION: Wifi.Disque SSD de 256 ou 512 Go au lieu de 500GO ou en sus.\n" +
+        "Machines puissantes et robustes idéales pour les charges de travail lourdes, les jeux , les montages vidéos ou le dessin ou la 3D."
   },
 
 // nouveaux produits ajoutés
 
   {
         id: "p-53",
-        name: "ALL IN ONE 27 POUCES TACTILE I7 12ème",
-        price: 850000,
+        name: "HP CORE I7 12 EME GEN",
+        price: 550000,
         stock: "En stock",
         category: "computers",
-        subcategory: "Ordinateurs de bureau",
+        subcategory: "Laptops",
         brand: "HP",
-        tags: ["desktop", "hp", "windows", "all-in-one", "tactile", "i7", "12ème", "27 pouces", "32go", "1tera ssd"],
+        tags: ["laptop", "hp", "windows", "i7"],
         image: "./IMG/ALL IN ONE 27 POUCES TACTILE I7 12ème/1.jpg",
         details: [
             "Neuf",
-            "Noir",
+            "Grise",
             "HP",
+            "512 SSD",
+            "8GO à 32GO",
+            "Intel® Core™ i7-1255U",
         ],
-        desc: "ALL IN ONE 27 POUCES TACTILE I7 12ème\n " +
-            "Processeur: Intel® Core™ i7-1255U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads) 1 2\n" +
-            "Mémoire 16 à 32 GO\n" +
-            "Disque dur: 1tera SSD\n" +
-            "Ecran 27 pouces Tactile\n",
+        desc: "Ordinateur portable HP Pavillon 15\n " +
+            "Processeur Core i7 12-ème génération (jusqu'à 4,7 GHz en Turbo Boost, 12 Mo de cache L3)\n" +
+            "Mémoire 8 Go de RAM DDR4-3200 MHz extensible à 32go.\n" +
+            "Disque dur SSD 512 go M.2 PCIe® NVMe™ (possible aussi en 1To)\n" +
+            "Ecran 15,6\" FHD (1 920 x 1 080)\n"
+            +"Haut-parleurs doubles ; Amplification audio HP/Caméra HD HP Wide Vision 720p avec microphones numériques à double matrice intégrés/1\n"
+      +"taux de signalisation SuperSpeed USB Type-C® 10 Gbit/s (USB Power Delivery, DisplayPort™ 1.4, HP Sleep and Charge)\n"
+      +"2 taux de signalisation SuperSpeed USB Type-A 5 Gbit/s\n"
+      +"1 HDMI 2.0 ; 1 broche intelligente CA ; 1 combo casque/micro\n",
     },
  {
         id: "p-55",
-        name: "ALL IN ONE.Core I5.24 Tactile",
-        price: 600000,
+        name: "Hp Elite X2 1013 G3 Core I7-8 ème Gen.16Go.512Go 13 Tactile",
+        price: 280000,
         stock: "En stock",
         category: "computers",
-        subcategory: "Ordinateurs de bureau",
+        subcategory: "Laptops",
         brand: "HP",
-        tags: ["desktop", "hp", "windows", "all-in-one", "tactile", "i5", "24 pouces", "16go", "512 ssd"],
-        image: "./IMG/ALL IN ONE.Core I524Tactile/1.jpg",
+        tags: ["laptops", "hp", "windows", "tactile"],
+        image: "./IMG/Hp Elite X2 1013 G3 Core I7-8 ème Gen.16Go.512Go 13 Tactile/1.jpg",
         details: [
-            "Neuf",
-            "Noir/blanc",
+            "Réconditionné",
+            "Gris",
             "HP",
-            "1000 go SATA ou 512 go SSD",
-            "16 go de RAM",
-            "Core i5 de 11e à 13ème génération",
+            "512GB",
+            "16GO",
+            "Core i7 8550 U 8-ème jusqu’à 4 .2 GHZ",
 
         ],
-        desc: "ALL IN ONE.Core I5.24 Tactile avec les caractéristiques principales;\n " +
-            "processeur core i5 11 ème à 13 ème génération\n" +
-            "Mémoire vive (RAM) 16 GO EXTENSIBLE 32 GO\n" +
-            "Disque dur 1000GO SATA OU 512 GO SSD\n" +
-            "Ecran tactile de 24 pouces . Windows 10 OU 11 PROFESSIONNEL 64 BITS+office .\n" +
-            "Pour toutes autres informations contactez-moi si vous le souhaitez\n",
+        desc: "HP Elite X2 1013 G3 Core I7-8 ème Gen.16Go.512Go 13\" Tactile (RECONDITIONNE USINE AVEC CARTON D'ORIGINE)\n " +
+            "LIVRE AVEC UN ADAPTATEUR 11 EN 1 pour tous les ports imaginables\n" +
+            "HP Elite x2 1013 G3 Intel-Core i7 8550 U 8-ème jusqu'à 4 .2 GHZ en mode Turbo\n" +
+            "RAM: 16 GO, DISQUE: 512GO SSD M2\n" +
+            "ECRAN 13 POUCES TACTILE DETACHABLE brillant au format 15/10 avec haute résolution\n" +
+            "2x USB Type-C\n"
+            + "1x USB Type-C\n"
+            + "3.2 Gen 1 (5 Gbit/s), Power Delivery (PD),\n"
+            + "Communication WIFI 802.11 ac(2x2),BLUETOOTH 5\n"
+            + "1 combiné casque/microphone\n"
+            + "Système d'exploitation installé et suite office : Microsoft Windows 10 Professionnel 64 bits /OFFICE 2019\n"
    
           },
 
   {
         id: "p-57",
-        name: "HP core 2 duo + 19 pouces",
-        price: 35000,
+        name: "HP ELITEBOOK 840 G3 I5",
+        price: 125000,
         stock: "En stock",
         category: "computers",
-        subcategory: "Ordinateurs de bureau",
+        subcategory: "Laptops",
         brand: "HP",
-        tags: ["hp", "windows", "elitebook", "i7", "16go", "512ssd", "14 pouces", "portable"],
-        image: "./IMG/HP core 2 duo + 19 pouces/1.jfif",
+        tags: ["hp", "windows", "portable"],
+        image: "./IMG/HP ELITEBOOK 840 G3 I5/1.jpg",
         details: [
-            "D'Occasion",
-            "Gris Noir",
+            "Réconditionné",
+            "Gris",
             "HP",
-            "160",
-            "2 go",
-            "2.2core2 duo",
+            "256SSD",
+            "8Go",
+            "Core i5-6è",
         ],
-        desc: "Nous vendons des ordinateurs complets en LENOVO, Dell et HP selon le stock : \n " +
-            "Pentium Core 2 duo 2,6ghz à 3ghz , 2go de mémoire ram, 160 go de disque dur et écran 19 pouces\n" +
-            "Disponibles aussi avec 4go de mémoire et 250Go de disque pour un petit supplément.\n" +
-            "Machines puissantes idéales pour transfert d'argent, multiservices et tous travaux de bureau et d'internet .D\n" +
-            "TOUS NOS PRODUITS SONT GARANTIS.\n",
+        desc: "NOUS VENDONS DES ORDINATEURS PORTABLES HP ELITEBOOK 840 G3\n " +
+            "CORE I5 6 génération 6600U\n" +
+            "Processeur de 2,6 à 3 GHZ\n" +
+            "mémoire 8go DDR4 SDRAM , disque dur ssd 256go\n" +
+            "Ecran 14 pouces.\n",
             
     },
      {
