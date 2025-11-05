@@ -4,4 +4,11 @@ Dell 500go Western digital
 Détails
 EtatRéconditionné
 Description
-Nom Western Digital 500GB 64MB 6Gb/s 5400RPM 500Go Série ATA III Type produit Disques durs Marque Western Digital Lecteur de disque Lecteur, dimension buffer 64 Mo Capacité disque dur 500 Go Interface du disque dur Série ATA III Vitesse de rotation du disque dur 5400 tr/min Disque dur, taille 3.5" Type d'appareil Disque dur Vitesse de transfert de l'interface de disque dur 6 Gbit/s Poids et dimensions Hauteur 14,7 cm Largeur 10,2 cm Profondeur 2,54 cm
+Nom Western Digital 500GB 64MB 6Gb/s 
+5400RPM 500Go Série ATA III Type produit Disques durs
+ Marque Western Digital Lecteur de disque Lecteur, 
+dimension buffer 64 Mo Capacité disque dur 500 Go 
+Interface du disque dur Série ATA III Vitesse de rotation du disque 
+dur 5400 tr/min Disque dur, taille 3.5" Type d'appareil Disque dur 
+Vitesse de transfert de l'interface de disque dur 6 Gbit/s Poids 
+et dimensions Hauteur 14,7 cm Largeur 10,2 cm Profondeur 2,54 cm
