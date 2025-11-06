@@ -8,7 +8,7 @@ export function Hero() {
   const title = "La Maîtrise Technologique";
   const subtitle = "Au Service de Vos Ambitions";
   const tagline =
-    "Avec ESTS, l’excellence sénégalaise est au service de vos projets : travaux, services et solutions sur mesure pour bâtir l’avenir."
+    "Avec ESTS, l’excellence sénégalaise est au service de vos projets : travaux, services et solutions sur mesure pour bâtir l’avenir.";
   const [line1, setLine1] = useState("");
   const [line2, setLine2] = useState("");
   const [text, setText] = useState("");
@@ -17,14 +17,14 @@ export function Hero() {
   const images = [
     "/images/imagebanniere.jpg",
     "/images/banniere5.png",
-    "/images/banniere2.jpeg",
-     "/images/banniere3.jfif",
-    "/images/banniere2.jpeg",
-    "/images/banniere4.JFIF"
-
+    "/images/banniere2.jpg",
+    "/images/banniere3.jpg",
+    "/images/banniere4.jpg",
   ];
+
   const [currentImage, setCurrentImage] = useState(images[0]);
 
+  // Effet machine à écrire
   function typeText(
     setter: React.Dispatch<React.SetStateAction<string>>,
     text: string,
@@ -55,23 +55,25 @@ export function Hero() {
     };
   }, []);
 
+  // ✅ Effet slideshow aléatoire non-stop
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => {
         let next;
         do {
           next = images[Math.floor(Math.random() * images.length)];
-        } while (next === prev);
+        } while (next === prev); // évite répétition immédiate
         return next;
       });
-    }, 3000);
+    }, 2000); // change toutes les 3 secondes
+
     return () => clearInterval(interval);
-  }, []);
+  }, [images]);
 
   return (
     <section className="relative bg-gradient-to-br from-blue-50 to-white overflow-hidden py-24">
       <div className="container mx-auto grid lg:grid-cols-2 gap-16 items-center px-6">
-        {/* ✅ Text Zone */}
+        {/* ✅ Zone de texte */}
         <div>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -82,7 +84,6 @@ export function Hero() {
             {line1}
             <br />
             <span style={{ color: "#D61F29" }}>{line2}</span>
-
           </motion.h1>
 
           <motion.p
@@ -94,12 +95,13 @@ export function Hero() {
             {text}
           </motion.p>
 
+          {/* ✅ Icônes / valeurs */}
           <div className="grid center gap-6 mb-10">
             <div
               style={{
                 display: "flex",
-                justifyContent: "center", // centre horizontalement
-                gap: "4rem", // espace entre chaque icône
+                justifyContent: "center",
+                gap: "4rem",
                 marginTop: "2rem",
               }}
             >
@@ -107,7 +109,7 @@ export function Hero() {
               <div style={{ textAlign: "center" }}>
                 <div
                   style={{
-                    backgroundColor: "#cc2e2eff", // bleu foncé
+                    backgroundColor: "#cc2e2eff",
                     padding: "1rem",
                     borderRadius: "50%",
                     width: "56px",
@@ -119,9 +121,7 @@ export function Hero() {
                     animation: "bounce 1s infinite alternate",
                   }}
                 >
-                  <Zap
-                    style={{ color: "#fff", width: "28px", height: "28px" }}
-                  />
+                  <Zap style={{ color: "#fff", width: "28px", height: "28px" }} />
                 </div>
                 <h3 style={{ fontWeight: 600 }}>Rapidité</h3>
                 <p style={{ fontSize: "0.875rem", color: "#6B7280" }}>
@@ -133,7 +133,7 @@ export function Hero() {
               <div style={{ textAlign: "center" }}>
                 <div
                   style={{
-                    backgroundColor: "#030133ff", // vert foncé
+                    backgroundColor: "#030133ff",
                     padding: "1rem",
                     borderRadius: "50%",
                     width: "56px",
@@ -145,9 +145,7 @@ export function Hero() {
                     animation: "pulse 1.5s infinite alternate",
                   }}
                 >
-                  <Shield
-                    style={{ color: "#fff", width: "28px", height: "28px" }}
-                  />
+                  <Shield style={{ color: "#fff", width: "28px", height: "28px" }} />
                 </div>
                 <h3 style={{ fontWeight: 600 }}>Fiabilité</h3>
                 <p style={{ fontSize: "0.875rem", color: "#6B7280" }}>
@@ -159,7 +157,7 @@ export function Hero() {
               <div style={{ textAlign: "center" }}>
                 <div
                   style={{
-                    backgroundColor: "#bba755ff", // violet foncé
+                    backgroundColor: "#bba755ff",
                     padding: "1rem",
                     borderRadius: "50%",
                     width: "56px",
@@ -171,9 +169,7 @@ export function Hero() {
                     animation: "bounce 1s infinite alternate",
                   }}
                 >
-                  <Users
-                    style={{ color: "#fff", width: "28px", height: "28px" }}
-                  />
+                  <Users style={{ color: "#fff", width: "28px", height: "28px" }} />
                 </div>
                 <h3 style={{ fontWeight: 600 }}>Expertise</h3>
                 <p style={{ fontSize: "0.875rem", color: "#6B7280" }}>
@@ -182,7 +178,7 @@ export function Hero() {
               </div>
             </div>
 
-            {/* CSS pour animations */}
+            {/* Animations CSS */}
             <style>
               {`
   @keyframes bounce {
@@ -190,7 +186,7 @@ export function Hero() {
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
   }
-  
+
   @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.1); }
@@ -201,58 +197,79 @@ export function Hero() {
           </div>
         </div>
 
-        {/* ✅ Slideshow Side */}
-<motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }}>
-  <div className="relative">
-    <ImageWithFallback
-      src={currentImage}
-      alt="ESTS Informatique – Solutions informatiques"
-      className="rounded-3xl shadow-2xl object-cover w-full h-[500px]"
-    />
+        {/* ✅ Slideshow avec transition douce */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+        >
+          <div className="relative">
+            <motion.img
+              key={currentImage}
+              src={currentImage}
+              alt="ESTS Informatique – Solutions informatiques"
+              className="rounded-3xl shadow-2xl object-cover w-full h-[500px]"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1.2 }}
+            />
 
-    {/* Badge en haut à droite – sur la marge */}
-    <div
-      style={{
-        position: "absolute",
-        top: "-0.5rem",   // moins collé en haut
-        right: "-0.5rem", // moins collé à droite
-        backgroundColor: "#ffffff",
-        padding: "0.75rem 1rem",
-        borderRadius: "0.75rem",
-        boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-        zIndex: 10,
-        display: "flex",
-        alignItems: "center",
-        gap: "0.5rem",
-      }}
-    >
-      <div style={{ width: "0.75rem", height: "0.75rem", backgroundColor: "#10B981", borderRadius: "50%" }}></div>
-      <span style={{ fontSize: "0.875rem" }}>✅ +500 clients satisfaits</span>
-    </div>
+            {/* ✅ Badge clients */}
+            <div
+              style={{
+                position: "absolute",
+                top: "-0.5rem",
+                right: "-0.5rem",
+                backgroundColor: "#ffffff",
+                padding: "0.75rem 1rem",
+                borderRadius: "0.75rem",
+                boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+                zIndex: 10,
+                display: "flex",
+                alignItems: "center",
+                gap: "0.5rem",
+              }}
+            >
+              <div
+                style={{
+                  width: "0.75rem",
+                  height: "0.75rem",
+                  backgroundColor: "#10B981",
+                  borderRadius: "50%",
+                }}
+              ></div>
+              <span style={{ fontSize: "0.875rem" }}>✅ +500 clients satisfaits</span>
+            </div>
 
-    {/* Badge en bas à gauche – sur la marge */}
-    <div
-      style={{
-        position: "absolute",
-        bottom: "-0.5rem", // moins collé en bas
-        left: "-0.5rem",   // moins collé à gauche
-        backgroundColor: "#ffffff",
-        padding: "0.75rem 1rem",
-        borderRadius: "0.75rem",
-        boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-        zIndex: 10,
-        display: "flex",
-        alignItems: "center",
-        gap: "0.5rem",
-      }}
-    >
-      <div style={{ width: "0.75rem", height: "0.75rem", backgroundColor: "#10B981", borderRadius: "50%" }}></div>
-      <span style={{ fontSize: "0.875rem" }}>📞 Assistance 24/7</span>
-    </div>
-  </div>
-</motion.div>
+            {/* ✅ Badge assistance */}
+            <div
+              style={{
+                position: "absolute",
+                bottom: "-0.5rem",
+                left: "-0.5rem",
+                backgroundColor: "#ffffff",
+                padding: "0.75rem 1rem",
+                borderRadius: "0.75rem",
+                boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+                zIndex: 10,
+                display: "flex",
+                alignItems: "center",
+                gap: "0.5rem",
+              }}
+            >
+              <div
+                style={{
+                  width: "0.75rem",
+                  height: "0.75rem",
+                  backgroundColor: "#10B981",
+                  borderRadius: "50%",
+                }}
+              ></div>
+              <span style={{ fontSize: "0.875rem" }}>📞 Assistance 24/7</span>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
-  
   );
 }

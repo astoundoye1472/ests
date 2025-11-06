@@ -34,7 +34,7 @@ export function About() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl mb-4 font-bold" style={{ color: "#D61F29" }}>
              À Propos d’ESTS
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -52,7 +52,7 @@ Nous mettons notre savoir-faire sénégalais au service d’infrastructures soli
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h3 className="text-2xl text-gray-900 mb-6">Notre Histoire</h3>
+            <h3 className="text-3xl md:text-4xl mb-4 font-bold " style={{ color: "#D61F29" }}>Notre Histoire</h3>
             <div className="space-y-4 text-gray-600">
               <p>
                Fondée avec la volonté de contribuer activement au développement du Sénégal, l’Entreprise
@@ -116,7 +116,7 @@ Nous mettons notre savoir-faire sénégalais au service d’infrastructures soli
 
         {/* Values */}
     <div>
-  <h3 className="text-2xl text-gray-900 text-center mb-12">Nos Valeurs</h3>
+  <h3 className="text-2xl font-bold text-center mb-12" style={{ color: "blue" }}>Nos Valeurs</h3>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
     {values.map((value, index) => {
       const direction = index % 3 === 0 ? "left" : index % 3 === 1 ? "right" : "bottom";
@@ -144,14 +144,14 @@ Nous mettons notre savoir-faire sénégalais au service d’infrastructures soli
 
 
      <motion.div
-  className="bg-blue-600 rounded-2xl p-8 md:p-12 text-center text-white mt-20"
+  className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-12 text-center text-white mt-20"
   initial={{ opacity: 0, y: 50 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true, amount: 0.1 }}
   transition={{ duration: 1, ease: "easeIn" }}
 >
   <h3 className="text-2xl md:text-3xl mb-6">Notre Mission</h3>
-  <p className="text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
+  <p className="text-lg md:text-xl leading-relaxed max-w-4xl mx-auto ">
     Chez ESTS, notre mission est de contribuer activement au développement du Sénégal et de l’Afrique en offrant des solutions de travaux et de services alliant qualité, fiabilité et innovation.
 
 Nous plaçons l’excellence, la rigueur et la satisfaction client au cœur de chacune de nos réalisations, afin de bâtir des infrastructures durables et de favoriser la croissance économique locale.

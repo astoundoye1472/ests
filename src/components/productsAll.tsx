@@ -168,7 +168,7 @@ export const ProductsAll: React.FC = () => {
     <div className="p-6 max-w-full overflow-x-hidden py-20 bg-gray-50">
       {/* --- Header --- */}
       <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-4xl text-gray-900 mb-4">
+        <h2 className="text-3xl md:text-4xl mb-4 font-bold" style={{ color: "#D61F29" }}>
           Nos Produits
         </h2>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -221,7 +221,7 @@ export const ProductsAll: React.FC = () => {
                     <div className="p-4 bg-white">
                       <Button
                         onClick={() => handleCategoryClick(cat)}
-                        className="w-full hover:bg-blue-700 mt-3 text-base sm:text-lg py-3"
+                        className="w-full mt-3 text-base sm:text-lg py-3"  style={{ background: "#D61F29" }}
                       >
                         Voir les produits
                       </Button>
@@ -374,7 +374,7 @@ export const ProductsAll: React.FC = () => {
                         {showVoirPlus && (
                           <button
                             onClick={() => setSelectedProduct(product)}
-                            className="text-blue-600 underline text-sm mt-1"
+                            className=" underline text-sm mt-1"  style={{ color: "#D61F29" }}
                           >
                             Voir plus
                           </button>
@@ -415,8 +415,8 @@ export const ProductsAll: React.FC = () => {
         className={`px-4 py-2 rounded-lg border ${
           currentPage === page
             ? "bg-blue-600 text-white border-blue-600"
-            : "bg-white text-gray-700 border-gray-300 hover:bg-gray-100"
-        } transition`}
+            : "bg-white text-white-700 border-white-300 hover:bg-gray-100"
+        } transition`}  style={{ background: "#D61F29" }}
       >
         {page}
       </button>
@@ -451,7 +451,7 @@ export const ProductsAll: React.FC = () => {
               className="w-full h-64 object-contain mb-4 rounded bg-gray-100"
             />
             <h3 className="text-2xl font-bold mb-2">{selectedProduct.name}</h3>
-            <p className="text-blue-700 font-semibold mb-2">
+            <p className="text-700 font-semibold mb-2"  style={{ color: "#D61F29" }}>
               {formatPrice(selectedProduct.price)}
             </p>
             <p className="text-sm text-gray-700 whitespace-pre-line mb-4">

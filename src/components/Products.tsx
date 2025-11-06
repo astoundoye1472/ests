@@ -15,11 +15,11 @@ export const ProductsAll: React.FC = () => {
 
       {/* Affichage des catégories si aucune sélection */}
       {!selectedCategory && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
           {CATEGORIES.map((cat) => (
             <div
               key={cat.key}
-              className="border rounded-lg p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300 cursor-pointer"
+              className="border rounded-lg p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300 cursor-pointer "
               onClick={() => setSelectedCategory(cat)}
             >
               <div className="flex items-center mb-4">

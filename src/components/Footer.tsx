@@ -131,9 +131,9 @@ export function Footer() {
 
       {/* --- Footer --- */}
       <footer className="bg-gray-900 text-white">
-        <div className="container mx-auto px-4 py-16">
+        <div className="container mx-auto px-4 py-16 ">
           {/* Newsletter */}
-          <div className="bg-blue-600 rounded-2xl p-8 mb-16">
+          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 mb-16 ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl mb-2">Restez informé</h3>
@@ -168,7 +168,7 @@ export function Footer() {
 
             <div className="flex gap-6 text-sm text-gray-400">
               <a
-                href="https://web.facebook.com/profile"
+                href="https://www.facebook.com/EstsSA"
                 target="_blank"
                 className="bg-gray-800 p-2 rounded-lg hover:bg-blue-600 transition-colors"
                 style={{ backgroundColor: "#0866FF" }}
@@ -180,7 +180,7 @@ export function Footer() {
                 />
               </a>
               <a
-                href="https://www.instagram.com/ests-informatique/"
+                href="https://www.instagram.com/ests_sarl?igsh=ZW0xaHZwcndveXJi"
                 target="_blank"
                 className="bg-gray-800 p-2 rounded-lg hover:bg-blue-400 transition-colors"
                 style={{ backgroundColor: "#FF0069" }}
@@ -192,7 +192,7 @@ export function Footer() {
                 />
               </a>
               <a
-                href="https://www.tiktok.com/@ags.informatique"
+                href="https://www.tiktok.com/@estssarl"
                 target="_blank"
                 className="bg-gray-800 p-2 rounded-lg hover:bg-blue-700 transition-colors"
                 style={{ backgroundColor: "#fff" }}

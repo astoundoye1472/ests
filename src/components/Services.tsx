@@ -23,7 +23,7 @@ export function Services() {
       icon: <Network className="h-8 w-8 text-purple-600" />,
       title: "Réseaux & Câblage",
       description: "Conception, installation et maintenance de réseaux informatiques et infrastructure de câblage.",
-      image: "/images/réseauCablage.png",
+      image: "/images/banniere3.jpg",
       features: ["Câblage structuré", "Configuration de routeurs", "Réseaux Wi-Fi", "Sécurité réseau"]
     },
     {
@@ -94,12 +94,14 @@ export function Services() {
               variants={cardVariants(index)}
             >
               <Card className="group hover:shadow-xl transition-all duration-300 overflow-hidden">
-                <div className="relative h-48 overflow-hidden">
-                  <ImageWithFallback
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
-                  />
+               <div className="relative aspect-square overflow-hidden rounded-xl">
+  <ImageWithFallback
+    src={service.image}
+    alt={service.title}
+    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+  />
+
+
                   <div className="absolute top-4 left-4 bg-white p-3 rounded-full shadow-lg">
                     {service.icon}
                   </div>
