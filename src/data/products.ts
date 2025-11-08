@@ -931,6 +931,53 @@ export const PRODUCTS: Product[] = [
             "Windows 10 professionnel 64 bits -office-antivirus et tous les utilitaires( acrobat reader etc,,,) Prêt à l'emploi et garanti.\n" +
             "Localisation : Gueule‑Tapée, Dakar",
     },
+      // Applications avec licences et antivirus - 6 produits
+   {
+    id: "p-49",
+    name: "LICENCE MICROSOFT OFFICE 2019",
+    price: 45000,
+    stock: "En stock",
+    category: "applications avec licences et antivirus",
+      subcategory: "Office 19 actif",
+      brand: "Microsoft",
+      tags: ["windows", "licence", "office", "word", "excel", "powerpoint"],
+      image: "./IMG/LICENECE MICROSOFT OFFICE 2019/2.jfif",
+      details: ["Neuf", "Gris", "Microsoft"],
+      desc: "NOUS VENDONS DES LICENCES MICROSOFT OFFICE 2019 (1)POSTE\n"
+          + "AU DELÀ DE CINQ (5) RÉDUCTION POSSIBLE."
+  },
+  {
+    id: "p-47",
+    name: "Windows 11 Pro Licence activation À Vie",
+    price: 20000,
+    stock: "En stock",
+    category: "applications avec licences et antivirus",
+    subcategory: "Windows 11 pro",
+    brand: "Microsoft",
+    tags: ["windows", "licence"],
+    image: "./IMG/Windows 11 Pro Licence activation À Vie/1.jfif",
+      details: ["Neuf", "Gris, Noir", "Microsoft"],
+      desc: "Produit Windows 11 Pro officiel\n"
+         + "Microsoft Online Update.\n"
+         + "Prend en charge l'allemand, l'anglais, l'italien, le français, le japonais, l'espagnol, le russe, etc.\n"
+         + "Compatible avec les versions 32 et 64 bits\n"
+         + "1 clé pour un seul PC. 1 clé Windows 11 Pro pour un ordinateur."
+  },
+ 
+    { 
+        id: "p-51",
+        name: "LICENCE WINDOWS 10 PROFESSIONNEL",
+        price: 15000,
+        stock: "En stock",
+        category: "applications avec licences et antivirus",
+        subcategory: "Windows 10 pro",
+        brand: "Microsoft",
+        tags: ["windows", "licence"],
+        image: "./IMG/LICENCE WINDOWS 10 PROFESSIONNEL/1.jfif",
+        details: ["Neuf", "Gris", "Microsoft"],
+        desc: "NOUS VENDONS DES LICENCES WINDOWS 10 PROFESSIONNEL POUR UN (1) POSTE.\n"
+            + "AU DELÀ DE CINQ (5) RÉDUCTION POSSIBLE."
+    },
     {
       id: "p-336",
       name: "Lenovo T14 Core i7 12 ème.14\" Tactile.16Go.512 Go",
